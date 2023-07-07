@@ -1,9 +1,13 @@
-import 'package:flutter/material.dart';
-import '../answer.dart';
-import 'package:the_book_of_answers_flutter/screens/start_screen.dart';
 import 'dart:developer' as developer;
 import 'dart:math';
+
 import 'package:flutter/services.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
+import 'components/share_appbar.dart';
+import 'package:the_book_of_answers_flutter/screens/start_screen.dart';
+import '../classes/answer.dart';
 
 class AnswerScreen extends StatefulWidget {
   final List<Answer> answers;
@@ -14,7 +18,8 @@ class AnswerScreen extends StatefulWidget {
   State<AnswerScreen> createState() => _AnswerScreenState();
 }
 
-class _AnswerScreenState extends State<AnswerScreen> {
+class _AnswerScreenState extends State<AnswerScreen>
+    with WidgetsBindingObserver {
   Answer? currentAnswer;
   Answer? previousAnswer;
   String languageCode = 'en'; // Default language code, e.g., 'en' for English
@@ -23,6 +28,13 @@ class _AnswerScreenState extends State<AnswerScreen> {
   void initState() {
     super.initState();
     currentAnswer = getRandomAnswer();
+    WidgetsBinding.instance.addObserver(this);
+  }
+
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    super.dispose();
   }
 
   Answer getRandomAnswer() {
@@ -36,12 +48,12 @@ class _AnswerScreenState extends State<AnswerScreen> {
     return randomAnswer;
   }
 
-  // void updateRandomAnswer() {
-  //   setState(() {
-  //     previousAnswer = currentAnswer;
-  //     currentAnswer = getRandomAnswer();
-  //   });
-  // }
+  void updateRandomAnswer() {
+    setState(() {
+      previousAnswer = currentAnswer;
+      currentAnswer = getRandomAnswer();
+    });
+  }
 
   void changeLanguage(String newLanguageCode) {
     setState(() {
@@ -54,8 +66,22 @@ class _AnswerScreenState extends State<AnswerScreen> {
   }
 
   @override
+  void didChangeLocales(List<Locale>? locales) {
+    super.didChangeLocales(locales);
+    if (locales != null && locales.isNotEmpty) {
+      final newLanguageCode = locales.first.languageCode;
+      changeLanguage(newLanguageCode);
+    }
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBodyBehindAppBar: true,
+      appBar: SharedAppBar(
+        title: AppLocalizations.of(context).titleAppBar,
+        onLanguageChanged: changeLanguage,
+      ),
       body: SafeArea(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -91,12 +117,7 @@ class _AnswerScreenState extends State<AnswerScreen> {
             ),
             OutlinedButton(
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => StartScreen(answers: widget.answers),
-                  ),
-                );
+                updateRandomAnswer();
               },
               child: const Text("Get Other Answer"),
             ),

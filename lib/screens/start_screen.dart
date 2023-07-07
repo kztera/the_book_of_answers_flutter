@@ -2,7 +2,10 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 
-import '../answer.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
+import 'components/share_appbar.dart';
+import '../classes/answer.dart';
 import 'answer_screen.dart';
 
 class StartScreen extends StatefulWidget {
@@ -15,21 +18,19 @@ class StartScreen extends StatefulWidget {
 }
 
 class _StartScreenState extends State<StartScreen> {
+  void handleLanguageChanged(String languageCode) {
+        setState(() {
+      languageCode = languageCode;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: const Color(0xFF8172FF),
-        automaticallyImplyLeading: false,
-        title: const Align(
-          alignment: AlignmentDirectional(0, 0),
-          child: Text(
-            'The Book of Answers',
-            textAlign: TextAlign.start,
-          ),
-        ),
-        centerTitle: false,
-        elevation: 2,
+      extendBodyBehindAppBar: true,
+      appBar: SharedAppBar(
+        title: AppLocalizations.of(context).titleAppBar,
+        onLanguageChanged: handleLanguageChanged,
       ),
       body: SafeArea(
         top: true,

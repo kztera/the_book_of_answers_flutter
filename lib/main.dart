@@ -4,7 +4,10 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'answer.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+
+import 'classes/answer.dart';
 import 'screens/start_screen.dart';
 
 void main() async {
@@ -34,16 +37,46 @@ Future<List<Answer>> readJsonFile() async {
   }
 }
 
-class Main extends StatelessWidget {
+class Main extends StatefulWidget {
   final List<Answer> answers;
 
   const Main({Key? key, required this.answers}) : super(key: key);
 
   @override
+  State<Main> createState() => _MainState();
+
+  static void setLocale(BuildContext context, Locale newLocale) {
+    _MainState? state = context.findAncestorStateOfType<_MainState>();
+    state?.setLocale(newLocale);
+  }
+}
+
+class _MainState extends State<Main> {
+  Locale? _locale;
+
+  setLocale(Locale locale) {
+    setState(() {
+      _locale = locale;
+    });
+  }
+
+  @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      localizationsDelegates: const [
+        AppLocalizations.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      locale: _locale,
+      supportedLocales: const [
+        Locale('en'),
+        Locale('vi'),
+      ],
       home: Scaffold(
-        body: StartScreen(answers: answers),
+        body: StartScreen(answers: widget.answers),
       ),
     );
   }

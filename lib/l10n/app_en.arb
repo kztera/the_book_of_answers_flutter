@@ -1,0 +1,6 @@
+{
+    "titleAppBar": "The Book of Answers",
+    "@titleAppBar": {
+        "description": "Title of the application bar"
+    }
+}

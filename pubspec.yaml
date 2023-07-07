@@ -11,9 +11,15 @@ dependencies:
   flutter:
     sdk: flutter
 
+  flutter_localizations:
+    sdk: flutter
+
   cupertino_icons: ^1.0.2
+  google_fonts: ^5.1.0
+  intl: ^0.18.0
 
 dev_dependencies:
+
   flutter_test:
     sdk: flutter
 
@@ -22,13 +28,22 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+  generate: true
 
   assets:
     - assets/images/
     - assets/data/
+    - assets/fonts/
 
-  # fonts:
-  #   - family: Schyler
+  fonts:
+    - family: Dancing Script
+      fonts:
+        - asset: assets/fonts/DancingScript-Regular.ttf
+        - asset: assets/fonts/DancingScript-Bold.ttf
+        - asset: assets/fonts/DancingScript-Medium.ttf
+        - asset: assets/fonts/DancingScript-SemiBold.ttf
+        - asset: assets/fonts/DancingScript-VariableFont_wght.ttf
+          weight: 700
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
