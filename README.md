@@ -14,10 +14,9 @@
 
 - Giới thiệu: Là ứng dụng dựa trên cuốn sách The Book of Answers của Carol Bolt. Người dùng sẽ suy nghĩ về một câu hỏi và thực hiện nhấn vào hình ảnh trên màn hình và ứng dụng sẽ đưa ra câu trả lời cho người dùng.
 
-<img src="assets/images/Icon.png" 
+<p align="center"><img src="assets/images/Icon.png" 
         alt="App Icon" 
-        width="400"  
-        style="display: block; margin: 0 auto" />
+        width="400"/></p>
 
 <p align="center"><i>App icon</i></p>
 
