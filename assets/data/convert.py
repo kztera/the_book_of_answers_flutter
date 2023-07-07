@@ -1,7 +1,7 @@
 import json
 
 # Read the text file
-with open('answers.txt', 'r') as file:
+with open('answers_en.txt', 'r') as file:
     lines = file.read().splitlines()
 
 # Create a dictionary to store the data
