@@ -14,8 +14,10 @@
 
 - Giới thiệu: Là ứng dụng dựa trên cuốn sách The Book of Answers của Carol Bolt. Người dùng sẽ suy nghĩ về một câu hỏi và thực hiện nhấn vào hình ảnh trên màn hình và ứng dụng sẽ đưa ra câu trả lời cho người dùng.
 
-<img src='assets/images/Icon.png' width=200px text-align=center>
-  
+<center><img src='assets/images/Icon.png' width=400px ></center>
+
+<center><i>App icon</i></center>
+
 - Công nghệ sử dụng: Dart/Flutter 
 
 - Cách lưu trữ câu trả lời: File JSON
