@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'answer.dart';
-import 'start_screen.dart';
+import 'screens/start_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,12 +15,14 @@ void main() async {
 
 Future<List<Answer>> readJsonFile() async {
   try {
-    String jsonString = await rootBundle.loadString('assets/data/answers_2.json');
+    String jsonString =
+        await rootBundle.loadString('assets/data/answers_2.json');
     final data = jsonDecode(jsonString);
 
     List<Answer> answerList = [];
     for (var item in data['answer']) {
-      Map<String, String> answerTexts = Map<String, String>.from(item['answerTexts']);
+      Map<String, String> answerTexts =
+          Map<String, String>.from(item['answerTexts']);
       Answer answer = Answer(id: item['id'], answerTexts: answerTexts);
       answerList.add(answer);
     }

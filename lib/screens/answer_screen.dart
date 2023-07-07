@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'answer.dart';
-import 'package:the_book_of_answers_flutter/start_screen.dart';
+import '../answer.dart';
+import 'package:the_book_of_answers_flutter/screens/start_screen.dart';
 import 'dart:developer' as developer;
 import 'dart:math';
 import 'package:flutter/services.dart';
