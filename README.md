@@ -8,7 +8,8 @@
   - [Làm sao để lấy được dữ liệu từ cuốn sách gốc?](#làm-sao-để-lấy-được-dữ-liệu-từ-cuốn-sách-gốc)
   - [Sử dụng dữ liệu này như thế nào?](#sử-dụng-dữ-liệu-này-như-thế-nào)
   - [Tạo giao diện cho ứng dụng](#tạo-giao-diện-cho-ứng-dụng)
-    - [Màn hình chính](#màn-hình-chính)
+  - [Chuyện Load dữ liệu](#chuyện-load-dữ-liệu)
+    - [Tiếng Việt và Tiếng Anh](#tiếng-việt-và-tiếng-anh)
 
 ## Ý tưởng
 
@@ -27,7 +28,7 @@
 ## TODO
 
 - [x] Lấy câu trả lời từ cuốn sách gốc 
-- [ ] Lưu trữ vào đâu để truy xuất dữ liệu?
+- [x] Lưu trữ vào đâu để truy xuất dữ liệu?
 - [ ] Tạo giao diện cho ứng dụng
   - [ ] Màn hình chính 
   - [ ] Màn hình câu trả lời
@@ -70,4 +71,148 @@ Tuy nhiên là mình làm không được nên thôi :') Đành chuyển qua d�
 
 ### Tạo giao diện cho ứng dụng
 
-#### Màn hình chính
+Ứng dụng sẽ chia làm 2 màn hình chính:
+- Start Screen: Màn hình chính, khi người dùng nhấn vào bìa cuốn sách thì sẽ chuyển sang màn hình câu trả lời
+- Answer Screen: Màn hình hiện câu trả lời, người dùng có thể quay lại màn hình trước đó bằng cách bấm vào nút xem thêm câu trả lời khác
+
+Ngoài ra, ta cần có một menu popup để người dùng có thể chọn xem lịch sử câu trả lời hoặc chia sẻ câu trả lời đó. Cơ mà tạm thời ta chưa cần nghĩ tới điều đó vội, trước hết cần hoàn thành mạch logic chính giữa 2 màn hình chính phía trên trước.
+
+### Chuyện Load dữ liệu
+
+Ý tưởng ban đầu là tạo một class Answer:
+
+```Dart
+class Answer {
+  late String answer;
+  late int id;
+
+  Answer({required this.answer, required this.id});
+}
+```
+
+Đọc file Json và truyền vào một `List<Answer>`:
+
+```Dart
+Future<List<Answer>> readJsonFile() async {
+  try {
+    String jsonPath = 'assets/data/answers.json';
+    String jsonString = await rootBundle.loadString(jsonPath);
+    List<dynamic> jsonList = json.decode(jsonString)['answer'];
+
+    List<Answer> answers = [];
+    for (var jsonObject in jsonList) {
+      Answer answer = Answer(
+        answer: jsonObject['answer'],
+        id: jsonObject['id'],
+      );
+      answers.add(answer);
+      log('Answer: ${answer.answer} (${answer.id})');
+    }
+
+    return answers;
+  } catch (e) {
+    log('Error reading JSON file: $e');
+    return [];
+  }
+}
+```
+
+List này sẽ được truyền qua các Screen và sẽ được lấy ngẫu nhiên ở trang `AnswerScreen` tức là chỉ khi bấm vào cuốn sách thì câu trả lời mới thực sự được lấy ra:
+
+```Dart
+Answer getRandomAnswer() {
+    final random = Random();
+    final index = random.nextInt(widget.answers.length);
+    return widget.answers[index];
+  }
+```
+
+Sau khi thử bộ dữ liệu với một file json có dạng như phía dưới được convert từ file txt (với python :D) mọi thứ có vẻ như đã ổn rồi:
+
+```json
+{
+    "answer": [
+        {
+            "id": 1,
+            "answer": "YOU WILL NOT BE DISAPPOINTED"
+        },
+        {
+            "id": 2,
+            "answer": "SHOW YOUR APPRECIATION"
+        }
+    ]
+}
+```
+
+
+Nhưng mình nhận ra mình còn muốn cả một bản tiếng việt nữa, vậy thì ta sẽ phải bắt đầu lại từ đâu đây?
+
+#### Tiếng Việt và Tiếng Anh
+
+Mục tiêu là sẽ chỉ tạo đúng 1 file Json cho bộ dữ liệu, thay vì chia ra nhiều file Json cho riêng ngôn ngữ. Vậy thì trước hết cần thay đổi một chút về class `Answer`:
+
+```Dart
+class Answer {
+  late int id;
+  late Map<String, String> answerTexts;
+
+  Answer({required this.id, required this.answerTexts});
+}
+```
+Khi này thì mỗi một answers sẽ lưu trữ câu trả lời cho từng ngôn ngữ được hỗ trợ, với `language code` có thể là `en`: English hoặc `vi`: Tiếng Việt đóng vai trò là khóa và câu trả lời trả lời bằng ngôn ngữ đó là giá trị.
+
+Đương nhiên là cả file JSON cũng cần thay đổi cho phù hợp với class mới này:
+
+```json
+{
+    "answer": [
+        {
+            "id": 1,
+            "answerTexts": {
+                "en": "YOU WILL NOT BE DISAPPOINTED",
+                "vi": "B\u1ea0N S\u1ebc KH\u00d4NG PH\u1ea2I TH\u1ea4T V\u1eccNG \u0110\u00c2U"
+            }
+        },
+        {
+            "id": 2,
+            "answerTexts": {
+                "en": "SHOW YOUR APPRECIATION",
+                "vi": "TH\u1ec2 HI\u1ec6N S\u1ef0 \u0110\u00c1NH GI\u00c1 C\u1ee6A B\u1ea0N"
+            }
+        }
+    ]
+}
+```
+
+Với class mới, file Json mới, ta cũng sẽ cập nhật `List<Answer>` mới
+
+```Dart
+Future<List<Answer>> readJsonFile() async {
+  try {
+    String jsonString = await rootBundle.loadString('assets/data/answers_2.json');
+    final data = jsonDecode(jsonString);
+
+    List<Answer> answerList = [];
+    for (var item in data['answer']) {
+      Map<String, String> answerTexts = Map<String, String>.from(item['answerTexts']);
+      Answer answer = Answer(id: item['id'], answerTexts: answerTexts);
+      answerList.add(answer);
+    }
+
+    return answerList;
+  } catch (e) {
+    log('Error reading JSON file: $e');
+    return []; // Return an empty list in case of an error
+  }
+}
+```
+
+Đồng thời là việc lấy ngẫu nhiên cũng sẽ thay đổi một chút:
+
+```Dart
+  String getAnswerText() {
+    return currentAnswer!.answerTexts[languageCode] ?? '';
+  }
+```
+
+Và như vậy, mỗi lần ta cần câu trả lời được đưa ra là ngôn ngữ nào ta chỉ cần thay đổi giá trị biến `languageCode` là được.

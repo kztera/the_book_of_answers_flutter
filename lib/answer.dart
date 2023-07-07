@@ -1,6 +1,6 @@
 class Answer {
-  late String answer;
   late int id;
+  late Map<String, String> answerTexts;
 
-  Answer({required this.answer, required this.id});
+  Answer({required this.id, required this.answerTexts});
 }

@@ -1,0 +1,2454 @@
+{
+    "answer": [
+        {
+            "id": 1,
+            "answerTexts": {
+                "en": "YOU WILL NOT BE DISAPPOINTED",
+                "vi": "B\u1ea0N S\u1ebc KH\u00d4NG PH\u1ea2I TH\u1ea4T V\u1eccNG \u0110\u00c2U"
+            }
+        },
+        {
+            "id": 2,
+            "answerTexts": {
+                "en": "SHOW YOUR APPRECIATION",
+                "vi": "TH\u1ec2 HI\u1ec6N S\u1ef0 \u0110\u00c1NH GI\u00c1 C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 3,
+            "answerTexts": {
+                "en": "YOUR ACTIONS WILL IMPROVE THINGS",
+                "vi": "H\u00c0NH \u0110\u1ed8NG C\u1ee6A B\u1ea0N S\u1ebc C\u1ea2I THI\u1ec6N M\u1eccI TH\u1ee8"
+            }
+        },
+        {
+            "id": 4,
+            "answerTexts": {
+                "en": "DON\u2019T BET ON IT",
+                "vi": "\u0110\u1eeaNG \u0110\u1eb6T C\u01af\u1ee2C V\u00c0O N\u00d3"
+            }
+        },
+        {
+            "id": 5,
+            "answerTexts": {
+                "en": "ADOPT AN ADVENTUROUS ATTITUDE",
+                "vi": "\u00c1P D\u1ee4NG M\u1ed8T TH\u00c1I \u0110\u1ed8 M\u1ea1o hi\u1ec3m"
+            }
+        },
+        {
+            "id": 6,
+            "answerTexts": {
+                "en": "FOLLOW THE ADVICE OF EXPERTS",
+                "vi": "THEO L\u1edcI KHUY\u00caN C\u1ee6A CHUY\u00caN GIA"
+            }
+        },
+        {
+            "id": 7,
+            "answerTexts": {
+                "en": "YOU COULD FIND YOURSELF UNABLE TO COMPROMISE",
+                "vi": "B\u1ea0N C\u00d3 TH\u1ec2 TH\u1ea4Y M\u00ccNH KH\u00d4NG TH\u1ec2 TH\u1eceA M\u00c3N"
+            }
+        },
+        {
+            "id": 8,
+            "answerTexts": {
+                "en": "FOCUS ON YOUR HOME LIFE",
+                "vi": "T\u1eacP TRUNG V\u00c0O CU\u1ed8C S\u1ed0NG GIA \u0110\u00ccNH C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 9,
+            "answerTexts": {
+                "en": "INVESTIGATE AND THEN ENJOY IT",
+                "vi": "\u0110I\u1ec0U TRA V\u00c0 SAU \u0110\u00d3 T\u1eacN H\u01af\u1edeNG"
+            }
+        },
+        {
+            "id": 10,
+            "answerTexts": {
+                "en": "DEFINITELY",
+                "vi": "CH\u1eaeC CH\u1eaeN"
+            }
+        },
+        {
+            "id": 11,
+            "answerTexts": {
+                "en": "ONLY DO IT ONCE",
+                "vi": "CH\u1ec8 L\u00c0M M\u1ed8T L\u1ea6N"
+            }
+        },
+        {
+            "id": 12,
+            "answerTexts": {
+                "en": "YOU MAY HAVE OPPOSITION",
+                "vi": "B\u1ea0N C\u00d3 TH\u1ec2 C\u00d3 C\u01a0 H\u1ed8I"
+            }
+        },
+        {
+            "id": 13,
+            "answerTexts": {
+                "en": "IT WILL REMAIN UNPREDICTABLE",
+                "vi": "N\u00d3 S\u1ebc TUY\u1ec6T V\u1edcI B\u1ea4T NG\u1edc"
+            }
+        },
+        {
+            "id": 14,
+            "answerTexts": {
+                "en": "YOU\u2019LL NEED TO TAKE THE INITIATIVE",
+                "vi": "B\u1ea0N S\u1ebc C\u1ea6N TH\u1ef0C HI\u1ec6N S\u00c1NG KI\u1ebeN"
+            }
+        },
+        {
+            "id": 15,
+            "answerTexts": {
+                "en": "CONSIDER IT AN OPPORTUNITY",
+                "vi": "H\u00c3Y XEM L\u00c0 M\u1ed8T C\u01a0 H\u1ed8I"
+            }
+        },
+        {
+            "id": 16,
+            "answerTexts": {
+                "en": "BE DELIBERATE",
+                "vi": "H\u00c3Y C\u1ed0 \u0110\u1ecaNH"
+            }
+        },
+        {
+            "id": 17,
+            "answerTexts": {
+                "en": "ABSOLUTELY NOT",
+                "vi": "TUY\u1ec6T \u0110\u1ed0I KH\u00d4NG"
+            }
+        },
+        {
+            "id": 18,
+            "answerTexts": {
+                "en": "EXPLORE IT WITH PLAYFUL CURIOSITY",
+                "vi": "KH\u00c1M PH\u00c1 N\u00d3 B\u1eb0NG T\u00cdNH T\u00ccM HI\u1ec2U VUI CH\u01a0I"
+            }
+        },
+        {
+            "id": 19,
+            "answerTexts": {
+                "en": "PERHAPS, WHEN YOU\u2019RE OLDER",
+                "vi": "C\u00d3 TH\u1ec2 KHI B\u1ea0N L\u1edaN H\u01a0N"
+            }
+        },
+        {
+            "id": 20,
+            "answerTexts": {
+                "en": "BE DELIGHTFULLY SURE OF IT",
+                "vi": "H\u00c3Y HO\u00c0N TO\u00c0N CH\u1eaeC CH\u1eaeN V\u1ec0 N\u00d3"
+            }
+        },
+        {
+            "id": 21,
+            "answerTexts": {
+                "en": "BETTER TO WAIT",
+                "vi": "T\u1ed0T H\u01a0N \u0110\u1ec2 CH\u1edc \u0110\u1ee2I"
+            }
+        },
+        {
+            "id": 22,
+            "answerTexts": {
+                "en": "REPRIORITIZE WHAT IS IMPORTANT",
+                "vi": "T\u00c1I T\u1ea0O L\u1ea0I NH\u1eeeNG \u0110I\u1ec0U QUAN TR\u1eccNG"
+            }
+        },
+        {
+            "id": 23,
+            "answerTexts": {
+                "en": "IT SEEMS ASSURED",
+                "vi": "C\u00d3 v\u1ebb nh\u01b0 \u0111\u00e3 \u0111\u01b0\u1ee3c \u0110\u1ea2M B\u1ea2O"
+            }
+        },
+        {
+            "id": 24,
+            "answerTexts": {
+                "en": "CREATE MORE SPACE FOR IT",
+                "vi": "T\u1ea0O TH\u00caM KH\u00d4NG GIAN CHO N\u00d3"
+            }
+        },
+        {
+            "id": 25,
+            "answerTexts": {
+                "en": "DO IT EARLY",
+                "vi": "L\u00c0M S\u1edaM"
+            }
+        },
+        {
+            "id": 26,
+            "answerTexts": {
+                "en": "KEEP IT TO YOURSELF",
+                "vi": "GI\u1eee N\u00d3 CHO RI\u00caNG M\u00ccNH"
+            }
+        },
+        {
+            "id": 27,
+            "answerTexts": {
+                "en": "ALLOW YOURSELF TO REST FIRST",
+                "vi": "CHO PH\u00c9P M\u00ccNH NGH\u1ec8 NG\u01a0I TR\u01af\u1edaC"
+            }
+        },
+        {
+            "id": 28,
+            "answerTexts": {
+                "en": "IT IS SENSIBLE",
+                "vi": "N\u00d3 L\u00c0 H\u1ee2P L\u00dd"
+            }
+        },
+        {
+            "id": 29,
+            "answerTexts": {
+                "en": "YOU\u2019LL HAVE TO MAKE IT UP AS YOU GO",
+                "vi": "B\u1ea0N S\u1ebc PH\u1ea2I L\u1eacP T\u1ee8C KHI \u0110I"
+            }
+        },
+        {
+            "id": 30,
+            "answerTexts": {
+                "en": "STARTLING EVENTS MAY OCCUR AS A RESULT",
+                "vi": "K\u1ebeT QU\u1ea2 L\u00c0 S\u1ef0 KI\u1ec6N B\u1eaeT \u0110\u1ea6U C\u00d3 TH\u1ec2 X\u1ea2Y RA"
+            }
+        },
+        {
+            "id": 31,
+            "answerTexts": {
+                "en": "THE ANSWER MAY COME TO YOU IN ANOTHER LANGUAGE",
+                "vi": "C\u00c2U TR\u1ea2 L\u1edcI C\u00d3 TH\u1ec2 \u0110\u1ebeN V\u1edaI B\u1ea0N B\u1eb0NG NG\u00d4N NG\u1eee KH\u00c1C"
+            }
+        },
+        {
+            "id": 32,
+            "answerTexts": {
+                "en": "YOU WILL NEED TO ACCOMMODATE",
+                "vi": "B\u1ea0N S\u1ebc C\u1ea6N CH\u1ed6 \u1ede"
+            }
+        },
+        {
+            "id": 33,
+            "answerTexts": {
+                "en": "DOUBT IT",
+                "vi": "NGHI NG\u1edc \u0110I\u1ec0U \u0110\u00d3"
+            }
+        },
+        {
+            "id": 34,
+            "answerTexts": {
+                "en": "IT WILL BRING GOOD LUCK",
+                "vi": "N\u00d3 S\u1ebc MANG L\u1ea0I MAY M\u1eaeN"
+            }
+        },
+        {
+            "id": 35,
+            "answerTexts": {
+                "en": "IT MAY BE CHALLENGING, BUT YOU WILL FIND VALUE IN IT",
+                "vi": "C\u00d3 TH\u1ec2 TH\u1eec TH\u00c1CH, NH\u01afNG B\u1ea0N S\u1ebc T\u00ccM \u0110\u01af\u1ee2C GI\u00c1 TR\u1eca TRONG N\u00d3"
+            }
+        },
+        {
+            "id": 36,
+            "answerTexts": {
+                "en": "BE PATIENT",
+                "vi": "KI\u00caN NH\u1eaaN"
+            }
+        },
+        {
+            "id": 37,
+            "answerTexts": {
+                "en": "YOU WILL FIND OUT EVERYTHING YOU\u2019LL NEED TO KNOW",
+                "vi": "B\u1ea0N S\u1ebc T\u00ccM HI\u1ec2U M\u1eccI TH\u1ee8 B\u1ea0N C\u1ea6N BI\u1ebeT"
+            }
+        },
+        {
+            "id": 38,
+            "answerTexts": {
+                "en": "THERE IS A SUBSTANTIAL LINK TO ANOTHER SITUATION",
+                "vi": "C\u00d3 LI\u00caN K\u1ebeT CH\u1ee6 Y\u1ebeU V\u1edaI T\u00ccNH HU\u1ed0NG KH\u00c1C"
+            }
+        },
+        {
+            "id": 39,
+            "answerTexts": {
+                "en": "WATCH AND SEE WHAT HAPPENS",
+                "vi": "XEM V\u00c0 XEM \u0110I\u1ec0U G\u00cc X\u1ea2Y RA"
+            }
+        },
+        {
+            "id": 40,
+            "answerTexts": {
+                "en": "YOU KNOW BETTER NOW THAN EVER BEFORE",
+                "vi": "B\u00c2Y GI\u1edc B\u1ea0N BI\u1ebeT T\u1ed0T H\u01a0N BAO GI\u1edc TR\u01af\u1edaC"
+            }
+        },
+        {
+            "id": 41,
+            "answerTexts": {
+                "en": "IT WILL AFFECT HOW OTHERS SEE YOU",
+                "vi": "N\u00d3 S\u1ebc \u1ea2NH H\u01af\u1edeNG \u0110\u1ebeN C\u00c1CH NG\u01af\u1edcI KH\u00c1C TH\u1ea4Y B\u1ea0N"
+            }
+        },
+        {
+            "id": 42,
+            "answerTexts": {
+                "en": "RECONSIDER YOUR APPROACH",
+                "vi": "XEM X\u00c9T C\u00c1CH TI\u1ebeP C\u1eacN C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 43,
+            "answerTexts": {
+                "en": "YOU\u2019LL BE HAPPY YOU DID",
+                "vi": "B\u1ea0N S\u1ebc H\u1ea0NH PH\u00daC B\u1ea0N \u0110\u00c3 L\u00c0M"
+            }
+        },
+        {
+            "id": 44,
+            "answerTexts": {
+                "en": "GET IT IN WRITING",
+                "vi": "NH\u1eacN N\u00d3 TRONG B\u00c0I VI\u1ebeT"
+            }
+        },
+        {
+            "id": 45,
+            "answerTexts": {
+                "en": "UNFAVORABLE AT THIS TIME",
+                "vi": "KH\u00d4NG C\u00d3 L\u1ee2I V\u00c0O TH\u1edcI \u0110I\u1ec2M N\u00c0Y"
+            }
+        },
+        {
+            "id": 46,
+            "answerTexts": {
+                "en": "IT IS NOT SOMETHING TO BE TAKEN LIGHTLY",
+                "vi": "KH\u00d4NG PH\u1ea2I L\u00c0 M\u1ed8T VI\u1ec6C N\u00c0O C\u00d3 TH\u1ec2 D\u00d9NG NH\u1eb8"
+            }
+        },
+        {
+            "id": 47,
+            "answerTexts": {
+                "en": "UPGRADE IN ANY WAY YOU CAN",
+                "vi": "N\u00c2NG C\u1ea4P THEO B\u1ea4T K\u1ef2 C\u00c1CH N\u00c0O B\u1ea0N C\u00d3 TH\u1ec2"
+            }
+        },
+        {
+            "id": 48,
+            "answerTexts": {
+                "en": "IF YOU DO AS YOU\u2019RE TOLD",
+                "vi": "N\u1ebeU B\u1ea0N L\u00c0M NH\u01af B\u1ea0N \u0110\u01af\u1ee2C N\u00d3I"
+            }
+        },
+        {
+            "id": 49,
+            "answerTexts": {
+                "en": "IF IT\u2019S DONE WELL; IF NOT, DON\u2019T DO IT AT ALL",
+                "vi": "N\u1ebeU L\u00c0M T\u1ed0T; N\u1ebeU KH\u00d4NG TH\u00cc \u0110\u1eeaNG L\u00c0M T\u1ea4T C\u1ea2"
+            }
+        },
+        {
+            "id": 50,
+            "answerTexts": {
+                "en": "DON\u2019T ASK FOR ANY MORE AT THIS TIME",
+                "vi": "\u0110\u1eeaNG H\u1eceI B\u1ea4T C\u1ee8 L\u00daC N\u00c0O V\u00c0O L\u00daC N\u00c0Y"
+            }
+        },
+        {
+            "id": 51,
+            "answerTexts": {
+                "en": "AVOID THE FIRST SOLUTION",
+                "vi": "TR\u00c1NH GI\u1ea2I PH\u00c1P \u0110\u1ea6U TI\u00caN"
+            }
+        },
+        {
+            "id": 52,
+            "answerTexts": {
+                "en": "YOU\u2019LL GET THE FINAL WORD",
+                "vi": "B\u1ea0N S\u1ebc NH\u1eacN \u0110\u01af\u1ee2C L\u1edcI CU\u1ed0I C\u00d9NG"
+            }
+        },
+        {
+            "id": 53,
+            "answerTexts": {
+                "en": "PROCEED AT A MORE RELAXED PACE",
+                "vi": "TI\u1ebeP T\u1ee4C \u1ede T\u1ed0C \u0110\u1ed8 THO\u1ea2I M\u00c1I H\u01a0N"
+            }
+        },
+        {
+            "id": 54,
+            "answerTexts": {
+                "en": "THE BEST SOLUTION MAY NOT BE THE OBVIOUS ONE",
+                "vi": "GI\u1ea2I PH\u00c1P T\u1ed0T NH\u1ea4T C\u00d3 TH\u1ec2 KH\u00d4NG PH\u1ea2I L\u00c0 GI\u1ea2I PH\u00c1P R\u00d5 R\u00c0NG"
+            }
+        },
+        {
+            "id": 55,
+            "answerTexts": {
+                "en": "REMAIN FLEXIBLE",
+                "vi": "DUY TR\u00cc LINH HO\u1ea0T"
+            }
+        },
+        {
+            "id": 56,
+            "answerTexts": {
+                "en": "RESPECT THE RULES",
+                "vi": "T\u00d4N TR\u1eccNG N\u1ed8I QUY"
+            }
+        },
+        {
+            "id": 57,
+            "answerTexts": {
+                "en": "TAKE THE LEAD",
+                "vi": "D\u1eaaN \u0110\u1ea6U"
+            }
+        },
+        {
+            "id": 58,
+            "answerTexts": {
+                "en": "CHOOSE YOUR WORDS THOUGHTFULLY",
+                "vi": "H\u00c3Y CH\u1eccN T\u1eea NG\u1eee C\u1ee6A B\u1ea0N M\u1ed8T C\u00c1CH SUY NGH\u0128"
+            }
+        },
+        {
+            "id": 59,
+            "answerTexts": {
+                "en": "YOU MAY BE HANGING ON TO AN OUTDATED IDEAL",
+                "vi": "B\u1ea0N C\u00d3 TH\u1ec2 \u0110ANG TREO V\u00c0O M\u1ed8T L\u00dd T\u01af\u1edeNG \u0110\u00c3 L\u1ed6I TH\u1edcI"
+            }
+        },
+        {
+            "id": 60,
+            "answerTexts": {
+                "en": "THERE MAY BE A STRUGGLE",
+                "vi": "C\u00d3 TH\u1ec2 C\u00d3 CU\u1ed8C \u0110\u1ea4U TRANH"
+            }
+        },
+        {
+            "id": 61,
+            "answerTexts": {
+                "en": "YOU\u2019LL HAVE THE ENTHUSIASM YOU\u2019LL NEED",
+                "vi": "B\u1ea0N S\u1ebc C\u00d3 S\u1ef0 NHI\u1ec6T T\u00ccNH M\u00c0 B\u1ea0N S\u1ebc C\u1ea6N"
+            }
+        },
+        {
+            "id": 62,
+            "answerTexts": {
+                "en": "PROVIDED YOU SAY \u201cTHANK YOU\u201d",
+                "vi": "N\u1ebeU B\u1ea0N N\u00d3I \u201cC\u00c1M \u01a0N\u201d"
+            }
+        },
+        {
+            "id": 63,
+            "answerTexts": {
+                "en": "ENJOY THE EXPERIENCE",
+                "vi": "T\u1eacN H\u01af\u1edeNG TR\u1ea2I NGHI\u1ec6M"
+            }
+        },
+        {
+            "id": 64,
+            "answerTexts": {
+                "en": "APPROACH CAUTIOUSLY",
+                "vi": "TI\u1ebeP C\u1eacN TH\u1eacN TR\u1eccNG"
+            }
+        },
+        {
+            "id": 65,
+            "answerTexts": {
+                "en": "BE YOUR OWN BEST ADVOCATE",
+                "vi": "H\u00c3Y L\u00c0 NG\u01af\u1edcI \u1ee6NG H\u1ed8 T\u1ed0T NH\u1ea4T C\u1ee6A CH\u00cdNH B\u1ea0N"
+            }
+        },
+        {
+            "id": 66,
+            "answerTexts": {
+                "en": "BE HAPPY FOR ANOTHER",
+                "vi": "H\u00c3Y VUI V\u1eba CHO NG\u01af\u1edcI KH\u00c1C"
+            }
+        },
+        {
+            "id": 67,
+            "answerTexts": {
+                "en": "PAY ATTENTION TO THE DETAILS",
+                "vi": "CH\u00da \u00dd \u0110\u1ebeN CHI TI\u1ebeT"
+            }
+        },
+        {
+            "id": 68,
+            "answerTexts": {
+                "en": "WATCH YOUR STEP AS YOU GO",
+                "vi": "XEM B\u01af\u1edaC C\u1ee6A B\u1ea0N KHI B\u1ea0N \u0110I"
+            }
+        },
+        {
+            "id": 69,
+            "answerTexts": {
+                "en": "SPEAK UP ABOUT IT",
+                "vi": "N\u00d3I V\u1ec0 N\u00d3"
+            }
+        },
+        {
+            "id": 70,
+            "answerTexts": {
+                "en": "DON\u2019T HESITATE",
+                "vi": "\u0110\u1eeaNG NG\u1ea0I"
+            }
+        },
+        {
+            "id": 71,
+            "answerTexts": {
+                "en": "THIS IS A GOOD TIME TO MAKE A NEW PLAN",
+                "vi": "\u0110\u00c2Y L\u00c0 TH\u1edcI \u0110I\u1ec2M T\u1ed0T \u0110\u1ec2 L\u1eacP K\u1ebe HO\u1ea0CH M\u1edaI"
+            }
+        },
+        {
+            "id": 72,
+            "answerTexts": {
+                "en": "MOVE ON",
+                "vi": "DI CHUY\u1ec2N"
+            }
+        },
+        {
+            "id": 73,
+            "answerTexts": {
+                "en": "A STRONG COMMITMENT WILL ACHIEVE GOOD RESULTS",
+                "vi": "CAM K\u1ebeT M\u1ea0NH M\u1ebc S\u1ebc \u0110\u1ea0T K\u1ebeT QU\u1ea2 T\u1ed0T"
+            }
+        },
+        {
+            "id": 74,
+            "answerTexts": {
+                "en": "IT MAY NOT BE LOGICAL",
+                "vi": "C\u00d3 TH\u1ec2 KH\u00d4NG H\u1ee2P L\u00dd"
+            }
+        },
+        {
+            "id": 75,
+            "answerTexts": {
+                "en": "THERE IS NO GUARANTEE",
+                "vi": "KH\u00d4NG C\u00d3 \u0110\u1ea2M B\u1ea2O"
+            }
+        },
+        {
+            "id": 76,
+            "answerTexts": {
+                "en": "THE CIRCUMSTANCES COULD CHANGE VERY QUICKLY",
+                "vi": "HO\u00c0N C\u1ea2NH C\u00d3 TH\u1ec2 THAY \u0110\u1ed4I R\u1ea4T NHANH CH\u00d3NG"
+            }
+        },
+        {
+            "id": 77,
+            "answerTexts": {
+                "en": "DON\u2019T GET CAUGHT UP IN YOUR EMOTIONS",
+                "vi": "\u0110\u1eeaNG B\u1eaeT BU\u1ed8C TRONG C\u1ea2M X\u00daC C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 78,
+            "answerTexts": {
+                "en": "SHIFT YOUR FOCUS",
+                "vi": "CHUY\u1ec2N \u0110\u1ed4I T\u1eacP TRUNG C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 79,
+            "answerTexts": {
+                "en": "IT IS SIGNIFICANT",
+                "vi": "\u0110\u00d3 L\u00c0 \u00dd NGH\u0128A"
+            }
+        },
+        {
+            "id": 80,
+            "answerTexts": {
+                "en": "REPRIORITIZE WHAT IS IMPORTANT",
+                "vi": "T\u00c1I T\u1ea0O L\u1ea0I NH\u1eeeNG \u0110I\u1ec0U QUAN TR\u1eccNG"
+            }
+        },
+        {
+            "id": 81,
+            "answerTexts": {
+                "en": "MAKE A LIST OF WHY NOT",
+                "vi": "L\u1eacP DANH S\u00c1CH T\u1ea0I SAO KH\u00d4NG"
+            }
+        },
+        {
+            "id": 82,
+            "answerTexts": {
+                "en": "DON\u2019T WAIT",
+                "vi": "\u0110\u1eeaNG CH\u1edc"
+            }
+        },
+        {
+            "id": 83,
+            "answerTexts": {
+                "en": "TAKE YOUR TIME",
+                "vi": "D\u00c0NH TH\u1edcI GIAN C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 84,
+            "answerTexts": {
+                "en": "THERE IS GOOD REASON TO BE OPTIMISTIC",
+                "vi": "C\u00d3 L\u00dd DO CH\u00cdNH X\u00c1C \u0110\u1ec2 L\u1ea0C QUAN"
+            }
+        },
+        {
+            "id": 85,
+            "answerTexts": {
+                "en": "IT IS SOMETHING YOU WON\u2019T FORGET",
+                "vi": "\u0110\u00d3 L\u00c0 \u0110I\u1ec0U B\u1ea0N S\u1ebc KH\u00d4NG TH\u1ec2 QU\u00caN"
+            }
+        },
+        {
+            "id": 86,
+            "answerTexts": {
+                "en": "SEEK OUT MORE OPTIONS",
+                "vi": "T\u00ccM KI\u1ebeM NHI\u1ec0U L\u1ef0A CH\u1eccN"
+            }
+        },
+        {
+            "id": 87,
+            "answerTexts": {
+                "en": "FOLLOW THROUGH ON YOUR OBLIGATIONS",
+                "vi": "THEO D\u00d5I NGH\u0128A V\u1ee4 C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 88,
+            "answerTexts": {
+                "en": "DEAL WITH IT LATER",
+                "vi": "X\u1eec L\u00dd N\u00d3 SAU"
+            }
+        },
+        {
+            "id": 89,
+            "answerTexts": {
+                "en": "REVEAL YOUR THOUGHTS TO A TRUSTED CONFIDANTE",
+                "vi": "TI\u1ebeT L\u1ed8 SUY NGH\u0128 C\u1ee6A B\u1ea0N CHO M\u1ed8T NG\u01af\u1edcI \u0110\u00c1NG TIN C\u1eacY"
+            }
+        },
+        {
+            "id": 90,
+            "answerTexts": {
+                "en": "FOLLOW SOMEONE ELSE\u2019S LEAD",
+                "vi": "THEO D\u1eaaN C\u1ee6A NG\u01af\u1edcI KH\u00c1C"
+            }
+        },
+        {
+            "id": 91,
+            "answerTexts": {
+                "en": "YOU COULD FIND YOURSELF UNABLE TO COMPROMISE",
+                "vi": "B\u1ea0N C\u00d3 TH\u1ec2 TH\u1ea4Y M\u00ccNH KH\u00d4NG TH\u1ec2 TH\u1eceA M\u00c3N"
+            }
+        },
+        {
+            "id": 92,
+            "answerTexts": {
+                "en": "MAKE A LIST OF WHY",
+                "vi": "L\u1eacP DANH S\u00c1CH T\u1ea0I SAO"
+            }
+        },
+        {
+            "id": 93,
+            "answerTexts": {
+                "en": "TAKE A CHANCE",
+                "vi": "N\u1eaeM B\u1eaeT C\u01a0 H\u1ed8I"
+            }
+        },
+        {
+            "id": 94,
+            "answerTexts": {
+                "en": "YOUR ACTIONS WILL IMPROVE THINGS",
+                "vi": "H\u00c0NH \u0110\u1ed8NG C\u1ee6A B\u1ea0N S\u1ebc C\u1ea2I THI\u1ec6N M\u1eccI TH\u1ee8"
+            }
+        },
+        {
+            "id": 95,
+            "answerTexts": {
+                "en": "ASK FOR HELP",
+                "vi": "Y\u00caU C\u1ea6U GI\u00daP \u0110\u1ee0"
+            }
+        },
+        {
+            "id": 96,
+            "answerTexts": {
+                "en": "KNOW WHEN IT\u2019S TIME TO GO",
+                "vi": "BI\u1ebeT KHI N\u00c0O \u0110\u1ebeN L\u00daC \u0110I"
+            }
+        },
+        {
+            "id": 97,
+            "answerTexts": {
+                "en": "ACCEPT A CHANGE TO YOUR ROUTINE",
+                "vi": "CH\u1ea4P NH\u1eacN THAY \u0110\u1ed4I L\u1ed8 TR\u00ccNH C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 98,
+            "answerTexts": {
+                "en": "YOU\u2019LL NEED TO TAKE THE INITIATIVE",
+                "vi": "B\u1ea0N S\u1ebc C\u1ea6N TH\u1ef0C HI\u1ec6N S\u00c1NG KI\u1ebeN"
+            }
+        },
+        {
+            "id": 99,
+            "answerTexts": {
+                "en": "YOU\u2019LL HAVE TO COMPROMISE",
+                "vi": "B\u1ea0N S\u1ebc PH\u1ea2I TH\u1eceA M\u00c3N"
+            }
+        },
+        {
+            "id": 100,
+            "answerTexts": {
+                "en": "YOU NEED MORE INFORMATION",
+                "vi": "B\u1ea0N C\u1ea6N TH\u00caM TH\u00d4NG TIN"
+            }
+        },
+        {
+            "id": 101,
+            "answerTexts": {
+                "en": "TRUST YOUR ORIGINAL THOUGHT",
+                "vi": "H\u00c3Y TIN T\u01af\u1edeNG SUY NGH\u0128 G\u1ed0C C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 102,
+            "answerTexts": {
+                "en": "SEEK OUT THE PATH OF LEAST RESISTANCE",
+                "vi": "T\u00ccM RA CON \u0110\u01af\u1edcNG \u00cdT KH\u00c1NG L\u1ef0C nh\u1ea5t"
+            }
+        },
+        {
+            "id": 103,
+            "answerTexts": {
+                "en": "IT WILL CREATE A STIR",
+                "vi": "N\u00d3 S\u1ebc T\u1ea0O RA M\u1ed8T KHO\u1ea2NG C\u00c1CH"
+            }
+        },
+        {
+            "id": 104,
+            "answerTexts": {
+                "en": "YOU\u2019LL OVERCOME ANY OBSTACLES",
+                "vi": "B\u1ea0N S\u1ebc V\u01af\u1ee2T QUA M\u1eccI Ch\u01b0\u1edbng Ng\u1ea1i"
+            }
+        },
+        {
+            "id": 105,
+            "answerTexts": {
+                "en": "IT WOULD BE BETTER TO FOCUS ON YOUR WORK",
+                "vi": "T\u1eacP TRUNG V\u00c0O C\u00d4NG VI\u1ec6C C\u1ee6A B\u1ea0N S\u1ebc T\u1ed0T H\u01a0N"
+            }
+        },
+        {
+            "id": 106,
+            "answerTexts": {
+                "en": "IT WILL BE A PLEASURE",
+                "vi": "N\u00d3 S\u1ebc L\u00c0 M\u1ed8T NI\u1ec0M VUI"
+            }
+        },
+        {
+            "id": 107,
+            "answerTexts": {
+                "en": "BE MORE GENEROUS",
+                "vi": "H\u00c3Y R\u1ed8NG R\u00c3I H\u01a0N"
+            }
+        },
+        {
+            "id": 108,
+            "answerTexts": {
+                "en": "BET ON IT",
+                "vi": "\u0110\u00c1NH C\u01af\u1ee2C"
+            }
+        },
+        {
+            "id": 109,
+            "answerTexts": {
+                "en": "GOOD THINGS ARE SEEKING YOU OUT",
+                "vi": "NH\u1eeeNG \u0110I\u1ec0U T\u1ed0T \u0110\u1eb8P \u0110ANG T\u00ccM KI\u1ebeM B\u1ea0N"
+            }
+        },
+        {
+            "id": 110,
+            "answerTexts": {
+                "en": "DON\u2019T LEAVE ROOM FOR REGRET",
+                "vi": "\u0110\u1eeaNG \u0110\u1ec2 L\u1ea0I CHO S\u1ef0 H\u1ed0I TI\u1ebeC"
+            }
+        },
+        {
+            "id": 111,
+            "answerTexts": {
+                "en": "MAKE A CONTRIBUTION",
+                "vi": "\u0110\u00d3NG G\u00d3P"
+            }
+        },
+        {
+            "id": 112,
+            "answerTexts": {
+                "en": "MISHAPS ARE HIGHLY PROBABLE",
+                "vi": "R\u1ea4T C\u00d3 TH\u1ec2 X\u1ea2Y RA"
+            }
+        },
+        {
+            "id": 113,
+            "answerTexts": {
+                "en": "PRESS FOR CLOSURE",
+                "vi": "NH\u1ea4N \u0110\u1ec2 \u0110\u00d3NG C\u1eecA"
+            }
+        },
+        {
+            "id": 114,
+            "answerTexts": {
+                "en": "REALIZE THAT TOO MANY CHOICES CAN BE AS DIFFICULT AS TOO FEW",
+                "vi": "NH\u1eacN TH\u1ee8C R\u1eb0NG QU\u00c1 NHI\u1ec0U S\u1ef0 L\u1ef0A CH\u1eccN C\u00d3 TH\u1ec2 KH\u00d3 NH\u01af QU\u00c1 NHI\u1ec0U L\u1ef0A CH\u1eccN"
+            }
+        },
+        {
+            "id": 115,
+            "answerTexts": {
+                "en": "YES",
+                "vi": "\u0110\u00daNG"
+            }
+        },
+        {
+            "id": 116,
+            "answerTexts": {
+                "en": "LISTEN CAREFULLY; THEN YOU WILL KNOW",
+                "vi": "L\u1eaeNG NGHE M\u1ed8T C\u00c1CH C\u1ea8N TH\u1eacN; R\u1ed2I B\u1ea0N S\u1ebc BI\u1ebeT"
+            }
+        },
+        {
+            "id": 117,
+            "answerTexts": {
+                "en": "THE ANSWER IS IN YOUR BACKYARD",
+                "vi": "C\u00c2U TR\u1ea2 L\u1edcI L\u00c0 TRONG SAU NH\u00c0 B\u1ea0N"
+            }
+        },
+        {
+            "id": 118,
+            "answerTexts": {
+                "en": "LAUGH ABOUT IT",
+                "vi": "C\u01af\u1edcI V\u1ec0 N\u00d3"
+            }
+        },
+        {
+            "id": 119,
+            "answerTexts": {
+                "en": "LET YOUR EMOTIONS GUIDE YOU",
+                "vi": "H\u00c3Y \u0110\u1ec2 C\u1ea2M X\u00daC C\u1ee6A B\u1ea0N H\u01af\u1edaNG D\u1eaaN B\u1ea0N"
+            }
+        },
+        {
+            "id": 120,
+            "answerTexts": {
+                "en": "OTHERS WILL DEPEND ON YOUR CHOICES",
+                "vi": "NH\u1eeeNG NG\u01af\u1edcI KH\u00c1C S\u1ebc PH\u1ee4 THU\u1ed8C V\u00c0O S\u1ef0 L\u1ef0A CH\u1eccN C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 121,
+            "answerTexts": {
+                "en": "LET IT GO",
+                "vi": "\u0110\u1ec2 N\u00d3 \u0110I"
+            }
+        },
+        {
+            "id": 122,
+            "answerTexts": {
+                "en": "IT\u2019S TIME FOR YOU TO GO",
+                "vi": "\u0110\u00c3 \u0110\u1ebeN L\u00daC B\u1ea0N \u0110I"
+            }
+        },
+        {
+            "id": 123,
+            "answerTexts": {
+                "en": "DON\u2019T BE DISTRACTED",
+                "vi": "KH\u00d4NG \u0110\u01af\u1ee2C PH\u00c2N T\u00cdCH"
+            }
+        },
+        {
+            "id": 124,
+            "answerTexts": {
+                "en": "GIVE IT ALL YOU\u2019VE GOT",
+                "vi": "\u0110\u01afA CHO TH\u1ee8 \u0110\u00d3 T\u1ea4T C\u1ea2 NH\u1eeeNG G\u00cc B\u1ea0N C\u00d3"
+            }
+        },
+        {
+            "id": 125,
+            "answerTexts": {
+                "en": "YOU DON\u2019T REALLY CARE",
+                "vi": "B\u1ea0N KH\u00d4NG TH\u1ef0C S\u1ef0 QUAN T\u00c2M"
+            }
+        },
+        {
+            "id": 126,
+            "answerTexts": {
+                "en": "YOU\u2019LL NEED TO CONSIDER OTHER WAYS",
+                "vi": "B\u1ea0N S\u1ebc C\u1ea6N XEM X\u00c9T NH\u1eeeNG C\u00c1CH KH\u00c1C"
+            }
+        },
+        {
+            "id": 127,
+            "answerTexts": {
+                "en": "A YEAR FROM NOW IT WON\u2019T MATTER",
+                "vi": "M\u1ed8T N\u0102M T\u1eea B\u00c2Y GI\u1edc S\u1ebc KH\u00d4NG V\u1ea4N \u0110\u1ec0"
+            }
+        },
+        {
+            "id": 128,
+            "answerTexts": {
+                "en": "FOLLOW THE ADVICE OF EXPERTS",
+                "vi": "THEO L\u1edcI KHUY\u00caN C\u1ee6A CHUY\u00caN GIA"
+            }
+        },
+        {
+            "id": 129,
+            "answerTexts": {
+                "en": "IT COULD BE EXTRAORDINARY",
+                "vi": "N\u00d3 C\u00d3 TH\u1ec2 TUY\u1ec6T V\u1edcI"
+            }
+        },
+        {
+            "id": 130,
+            "answerTexts": {
+                "en": "COUNT TO TEN; ASK AGAIN",
+                "vi": "\u0110\u1ebeM T\u1edaI M\u01af\u1edcI; H\u1eceI L\u1ea0I"
+            }
+        },
+        {
+            "id": 131,
+            "answerTexts": {
+                "en": "ACT AS THOUGH IT IS ALREADY REAL",
+                "vi": "H\u00c3Y H\u00c0NH \u0110\u1ed8NG NH\u01af V\u1eacY L\u00c0 S\u1ef0 TH\u1eacT"
+            }
+        },
+        {
+            "id": 132,
+            "answerTexts": {
+                "en": "SETTING PRIORITIES WILL BE A NECESSARY PART OF THE PROCESS",
+                "vi": "THI\u1ebeT L\u1eacP C\u00c1C \u01afU TI\u00caN S\u1ebc L\u00c0 M\u1ed8T PH\u1ea6N C\u1ea6N THI\u1ebeT C\u1ee6A QU\u00c1 TR\u00ccNH"
+            }
+        },
+        {
+            "id": 133,
+            "answerTexts": {
+                "en": "USE YOUR IMAGINATION",
+                "vi": "S\u1eec D\u1ee4NG TR\u00cd T\u01af\u1edeNG T\u01af\u1ee2NG C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 134,
+            "answerTexts": {
+                "en": "IT\u2019S GONNA BE GREAT",
+                "vi": "N\u00d3 S\u1ebc TUY\u1ec6T V\u1edcI"
+            }
+        },
+        {
+            "id": 135,
+            "answerTexts": {
+                "en": "TO ENSURE THE BEST DECISION, BE CALM",
+                "vi": "H\u00c3Y B\u00ccNH T\u0128NH \u0110\u1ec2 \u0110\u1ea2M B\u1ea2O QUY\u1ebeT \u0110\u1ecaNH T\u1ed0T NH\u1ea4T"
+            }
+        },
+        {
+            "id": 136,
+            "answerTexts": {
+                "en": "WAIT",
+                "vi": "CH\u1edc \u0110\u1ee2I"
+            }
+        },
+        {
+            "id": 137,
+            "answerTexts": {
+                "en": "YOU\u2019LL HAVE TO MAKE IT UP AS YOU GO",
+                "vi": "B\u1ea0N S\u1ebc PH\u1ea2I L\u1eacP T\u1ee8C KHI \u0110I"
+            }
+        },
+        {
+            "id": 138,
+            "answerTexts": {
+                "en": "FOLLOW THE DIRECTIONS",
+                "vi": "L\u00c0M THEO H\u01af\u1edaNG D\u1eaaN"
+            }
+        },
+        {
+            "id": 139,
+            "answerTexts": {
+                "en": "UNQUESTIONABLY",
+                "vi": "B\u1ea4T NG\u1edc"
+            }
+        },
+        {
+            "id": 140,
+            "answerTexts": {
+                "en": "OF COURSE",
+                "vi": "T\u1ea4T NHI\u00caN R\u1ed2I"
+            }
+        },
+        {
+            "id": 141,
+            "answerTexts": {
+                "en": "LOOK FOR WHAT MAY BE HIDDEN",
+                "vi": "T\u00ccM KI\u1ebeM NH\u1eeeNG G\u00cc C\u00d3 TH\u1ec2 B\u1eca \u1ea8N"
+            }
+        },
+        {
+            "id": 142,
+            "answerTexts": {
+                "en": "YOU KNOW BETTER NOW THAN EVER BEFORE",
+                "vi": "B\u00c2Y GI\u1edc B\u1ea0N BI\u1ebeT T\u1ed0T H\u01a0N BAO GI\u1edc TR\u01af\u1edaC"
+            }
+        },
+        {
+            "id": 143,
+            "answerTexts": {
+                "en": "TRUST YOUR INTUITION",
+                "vi": "H\u00c3Y TIN T\u01af\u1edeNG TR\u1ef0C GI\u00c1C C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 144,
+            "answerTexts": {
+                "en": "DON\u2019T MISS AN OPPORTUNITY",
+                "vi": "\u0110\u1eeaNG B\u1ece L\u1ee0 C\u01a0 H\u1ed8I"
+            }
+        },
+        {
+            "id": 145,
+            "answerTexts": {
+                "en": "ASK YOUR FATHER",
+                "vi": "H\u1eceI B\u1ed0 B\u1ea0N \u1ea4Y"
+            }
+        },
+        {
+            "id": 146,
+            "answerTexts": {
+                "en": "ASK YOUR MOTHER",
+                "vi": "H\u00c3Y H\u1eceI M\u1eb8 C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 147,
+            "answerTexts": {
+                "en": "PERHAPS, WHEN YOU\u2019RE OLDER",
+                "vi": "C\u00d3 TH\u1ec2 KHI B\u1ea0N L\u1edaN H\u01a0N"
+            }
+        },
+        {
+            "id": 148,
+            "answerTexts": {
+                "en": "MAYBE",
+                "vi": "C\u00d3 L\u1ebc"
+            }
+        },
+        {
+            "id": 149,
+            "answerTexts": {
+                "en": "FINISH SOMETHING ELSE FIRST",
+                "vi": "K\u1ebeT TH\u00daC C\u00c1I G\u00cc KH\u00c1C TR\u01af\u1edaC"
+            }
+        },
+        {
+            "id": 150,
+            "answerTexts": {
+                "en": "YOU MAY HAVE OPPOSITION",
+                "vi": "B\u1ea0N C\u00d3 TH\u1ec2 C\u00d3 C\u01a0 H\u1ed8I"
+            }
+        },
+        {
+            "id": 151,
+            "answerTexts": {
+                "en": "YOU ARE TOO CLOSE TO SEE",
+                "vi": "B\u1ea0N QU\u00c1 G\u1ea6N \u0110\u1ec2 XEM"
+            }
+        },
+        {
+            "id": 152,
+            "answerTexts": {
+                "en": "THE SITUATION IS UNCLEAR",
+                "vi": "T\u00ccNH H\u00ccNH KH\u00d4NG R\u00d5 R\u00c0NG"
+            }
+        },
+        {
+            "id": 153,
+            "answerTexts": {
+                "en": "A SUBSTANTIAL EFFORT WILL BE REQUIRED",
+                "vi": "C\u1ea6N M\u1ed8T N\u1ed6 L\u1ef0C \u0110\u00c1NG TIN C\u1eacY"
+            }
+        },
+        {
+            "id": 154,
+            "answerTexts": {
+                "en": "ALLOW YOURSELF TO REST FIRST",
+                "vi": "CHO PH\u00c9P M\u00ccNH NGH\u1ec8 NG\u01a0I TR\u01af\u1edaC"
+            }
+        },
+        {
+            "id": 155,
+            "answerTexts": {
+                "en": "THE CHANCE WILL NOT COME AGAIN SOON",
+                "vi": "C\u01a0 H\u1ed8I S\u1ebc KH\u00d4NG \u0110\u1ebeN M\u1ed8T L\u1ea6N N\u1eeeA"
+            }
+        },
+        {
+            "id": 156,
+            "answerTexts": {
+                "en": "THE ANSWER MAY COME TO YOU IN ANOTHER LANGUAGE",
+                "vi": "C\u00c2U TR\u1ea2 L\u1edcI C\u00d3 TH\u1ec2 \u0110\u1ebeN V\u1edaI B\u1ea0N B\u1eb0NG NG\u00d4N NG\u1eee KH\u00c1C"
+            }
+        },
+        {
+            "id": 157,
+            "answerTexts": {
+                "en": "RECONSIDER YOUR APPROACH",
+                "vi": "XEM X\u00c9T C\u00c1CH TI\u1ebeP C\u1eacN C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 158,
+            "answerTexts": {
+                "en": "IT WOULD BE INADVISABLE",
+                "vi": "N\u00d3 KH\u00d4NG TH\u1ec2 TUY\u1ec6T V\u1edcI"
+            }
+        },
+        {
+            "id": 159,
+            "answerTexts": {
+                "en": "THERE IS A SMALL PRICE TO PAY",
+                "vi": "C\u00d3 M\u1ed8T GI\u00c1 NH\u1ece PH\u1ea2I TR\u1ea2"
+            }
+        },
+        {
+            "id": 160,
+            "answerTexts": {
+                "en": "WAIT FOR A BETTER OFFER",
+                "vi": "CH\u1edc M\u1ed8T \u01afU \u0110\u00c3I T\u1ed0T H\u01a0N"
+            }
+        },
+        {
+            "id": 161,
+            "answerTexts": {
+                "en": "SETTLE IT SOON",
+                "vi": "GI\u1ea2I QUY\u1ebeT NGAY L\u1eacP T\u1ee8C"
+            }
+        },
+        {
+            "id": 162,
+            "answerTexts": {
+                "en": "REMAIN OBJECTIVE",
+                "vi": "DUY TR\u00cc M\u1ee4C TI\u00caU"
+            }
+        },
+        {
+            "id": 163,
+            "answerTexts": {
+                "en": "YES, BUT DON\u2019T FORCE IT",
+                "vi": "C\u00d3, NH\u01afNG \u0110\u1eeaNG B\u1eaeT BU\u1ed8C"
+            }
+        },
+        {
+            "id": 164,
+            "answerTexts": {
+                "en": "GET A CLEARER VIEW",
+                "vi": "XEM R\u00d5 R\u00c0NG H\u01a0N"
+            }
+        },
+        {
+            "id": 165,
+            "answerTexts": {
+                "en": "BE DELIGHTFULLY SURE OF IT",
+                "vi": "H\u00c3Y HO\u00c0N TO\u00c0N CH\u1eaeC CH\u1eaeN V\u1ec0 N\u00d3"
+            }
+        },
+        {
+            "id": 166,
+            "answerTexts": {
+                "en": "NOW YOU CAN",
+                "vi": "B\u00c2Y GI\u1edc B\u1ea0N C\u00d3 TH\u1ec2"
+            }
+        },
+        {
+            "id": 167,
+            "answerTexts": {
+                "en": "PROVIDED YOU SAY \u201cTHANK YOU\u201d",
+                "vi": "N\u1ebeU B\u1ea0N N\u00d3I \u201cC\u00c1M \u01a0N\u201d"
+            }
+        },
+        {
+            "id": 168,
+            "answerTexts": {
+                "en": "DON\u2019T OVERDO IT",
+                "vi": "\u0110\u1eeaNG L\u1ea0M D\u1ee4NG N\u00d3"
+            }
+        },
+        {
+            "id": 169,
+            "answerTexts": {
+                "en": "IT WILL SUSTAIN YOU",
+                "vi": "N\u00d3 S\u1ebc B\u1ed2I D\u01af\u1ee0NG B\u1ea0N"
+            }
+        },
+        {
+            "id": 170,
+            "answerTexts": {
+                "en": "IT COULD COST YOU",
+                "vi": "N\u00d3 C\u00d3 TH\u1ec2 L\u00c0M B\u1ea0N CHI PH\u00cd"
+            }
+        },
+        {
+            "id": 171,
+            "answerTexts": {
+                "en": "ADOPT AN ADVENTUROUS ATTITUDE",
+                "vi": "\u00c1P D\u1ee4NG M\u1ed8T TH\u00c1I \u0110\u1ed8 M\u1ea1o hi\u1ec3m"
+            }
+        },
+        {
+            "id": 172,
+            "answerTexts": {
+                "en": "IT IS SURE TO MAKE THINGS INTERESTING",
+                "vi": "CH\u1eaeC CH\u1eaeN L\u00c0M \u0110I\u1ec0U TH\u00da V\u1eca"
+            }
+        },
+        {
+            "id": 173,
+            "answerTexts": {
+                "en": "BE PRACTICAL",
+                "vi": "\u0110\u01af\u1ee2C TH\u1ef0C T\u1ebe"
+            }
+        },
+        {
+            "id": 174,
+            "answerTexts": {
+                "en": "ARE YOU READY?",
+                "vi": "B\u1ea0N \u0110\u00c3 S\u1eb4N S\u00c0NG CH\u01afA?"
+            }
+        },
+        {
+            "id": 175,
+            "answerTexts": {
+                "en": "SAVE YOUR ENERGY",
+                "vi": "TI\u1ebeT KI\u1ec6M N\u0102NG L\u01af\u1ee2NG C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 176,
+            "answerTexts": {
+                "en": "PAY ATTENTION TO THE DETAILS",
+                "vi": "CH\u00da \u00dd \u0110\u1ebeN CHI TI\u1ebeT"
+            }
+        },
+        {
+            "id": 177,
+            "answerTexts": {
+                "en": "IT IS CERTAIN",
+                "vi": "CH\u1eaeC CH\u1eaeN"
+            }
+        },
+        {
+            "id": 178,
+            "answerTexts": {
+                "en": "IT IS UNCERTAIN",
+                "vi": "KH\u00d4NG CH\u1eaeC CH\u1eaeN"
+            }
+        },
+        {
+            "id": 179,
+            "answerTexts": {
+                "en": "THE OUTCOME WILL BE POSITIVE",
+                "vi": "K\u1ebeT QU\u1ea2 S\u1ebc T\u00cdCH C\u1ef0C"
+            }
+        },
+        {
+            "id": 180,
+            "answerTexts": {
+                "en": "YOU MAY HAVE TO DROP OTHER THINGS",
+                "vi": "B\u1ea0N C\u00d3 TH\u1ec2 PH\u1ea2I B\u1ece NH\u1eeeNG TH\u1ee8 KH\u00c1C"
+            }
+        },
+        {
+            "id": 181,
+            "answerTexts": {
+                "en": "DON\u2019T BE CONCERNED",
+                "vi": "\u0110\u1eeaNG QUAN T\u00c2M"
+            }
+        },
+        {
+            "id": 182,
+            "answerTexts": {
+                "en": "PREPARE FOR THE UNEXPECTED",
+                "vi": "CHU\u1ea8N B\u1eca CHO NH\u1eeeNG \u0110I\u1ec0U B\u1ea4T NG\u1edc"
+            }
+        },
+        {
+            "id": 183,
+            "answerTexts": {
+                "en": "TELL SOMEONE WHAT IT MEANS TO YOU",
+                "vi": "N\u00d3I V\u1edaI AI \u0110\u00d3 \u00dd NGH\u0128A V\u1edaI B\u1ea0N"
+            }
+        },
+        {
+            "id": 184,
+            "answerTexts": {
+                "en": "WHATEVER YOU DO, THE RESULTS WILL BE LASTING",
+                "vi": "D\u00d9 B\u1ea0N L\u00c0M G\u00cc, K\u1ebeT QU\u1ea2 S\u1ebc L\u00c0 L\u00c2U D\u00c0I"
+            }
+        },
+        {
+            "id": 185,
+            "answerTexts": {
+                "en": "KEEP AN OPEN MIND",
+                "vi": "NGH\u0128 THO\u00c1NG RA"
+            }
+        },
+        {
+            "id": 186,
+            "answerTexts": {
+                "en": "IT\u2019S A GOOD TIME TO MAKE PLANS",
+                "vi": "\u0110\u00c2Y L\u00c0 TH\u1edcI \u0110I\u1ec2M T\u1ed0T \u0110\u1ec2 L\u1eacP K\u1ebe HO\u1ea0CH"
+            }
+        },
+        {
+            "id": 187,
+            "answerTexts": {
+                "en": "IT MAY BE AMBITIOUS, BUT YOU WILL FIND VALUE IN IT",
+                "vi": "C\u00d3 TH\u1ec2 L\u00c0 THAM V\u1eccNG, NH\u01afNG B\u1ea0N S\u1ebc T\u00ccM \u0110\u01af\u1ee2C GI\u00c1 TR\u1eca TRONG N\u00d3"
+            }
+        },
+        {
+            "id": 188,
+            "answerTexts": {
+                "en": "IT IS WORTH THE TROUBLE",
+                "vi": "N\u00d3 X\u1ee8NG \u0110\u00c1NG G\u1eb6P L\u1ea0I"
+            }
+        },
+        {
+            "id": 189,
+            "answerTexts": {
+                "en": "YOU\u2019LL OVERCOME ANY OBSTACLES",
+                "vi": "B\u1ea0N S\u1ebc V\u01af\u1ee2T QUA M\u1eccI Ch\u01b0\u1edbng Ng\u1ea1i"
+            }
+        },
+        {
+            "id": 190,
+            "answerTexts": {
+                "en": "RELATED ISSUES MAY SURFACE",
+                "vi": "C\u00c1C V\u1ea4N \u0110\u1ec0 LI\u00caN QUAN C\u00d3 TH\u1ec2 XU\u1ea4T HI\u1ec6N"
+            }
+        },
+        {
+            "id": 191,
+            "answerTexts": {
+                "en": "YOU ARE SURE TO HAVE SUPPORT",
+                "vi": "B\u1ea0N CH\u1eaeC CH\u1eaeN C\u00d3 S\u1ef0 H\u1ed6 TR\u1ee2"
+            }
+        },
+        {
+            "id": 192,
+            "answerTexts": {
+                "en": "ASSISTANCE WOULD MAKE YOUR PROGRESS A SUCCESS",
+                "vi": "S\u1ef0 H\u1ed6 TR\u1ee2 S\u1ebc L\u00c0M CHO QU\u00c1 TR\u00ccNH TH\u00c0NH C\u00d4NG C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 193,
+            "answerTexts": {
+                "en": "COLLABORATION WILL BE THE KEY",
+                "vi": "H\u1ee2P T\u00c1C S\u1ebc L\u00c0 CH\u00ccA KH\u00d3A"
+            }
+        },
+        {
+            "id": 194,
+            "answerTexts": {
+                "en": "SEEK OUT MORE OPTIONS",
+                "vi": "T\u00ccM KI\u1ebeM NHI\u1ec0U L\u1ef0A CH\u1eccN"
+            }
+        },
+        {
+            "id": 195,
+            "answerTexts": {
+                "en": "TAKE CHARGE",
+                "vi": "THU PH\u00cd"
+            }
+        },
+        {
+            "id": 196,
+            "answerTexts": {
+                "en": "IT CANNOT FAIL",
+                "vi": "KH\u00d4NG TH\u1ec2 TH\u1ea4T B\u1ea0I"
+            }
+        },
+        {
+            "id": 197,
+            "answerTexts": {
+                "en": "YOU MUST ACT NOW",
+                "vi": "B\u1ea0N PH\u1ea2I H\u00c0NH \u0110\u1ed8NG NGAY B\u00c2Y GI\u1edc"
+            }
+        },
+        {
+            "id": 198,
+            "answerTexts": {
+                "en": "RESPECT THE RULES",
+                "vi": "T\u00d4N TR\u1eccNG N\u1ed8I QUY"
+            }
+        },
+        {
+            "id": 199,
+            "answerTexts": {
+                "en": "GENTLE PERSISTENCE WILL PAY OFF",
+                "vi": "S\u1ef0 KI\u00caN TR\u00cc NH\u1eb8 NH\u00c0NG S\u1ebc \u0110\u01af\u1ee2C TR\u1ea2 TI\u1ec0N"
+            }
+        },
+        {
+            "id": 200,
+            "answerTexts": {
+                "en": "YOU COULD BE DISAPPOINTED",
+                "vi": "B\u1ea0N C\u00d3 TH\u1ec2 TH\u1ea4T B\u1ea0I"
+            }
+        },
+        {
+            "id": 201,
+            "answerTexts": {
+                "en": "IT MAY ALREADY BE A DONE DEAL",
+                "vi": "N\u00d3 C\u00d3 TH\u1ec2 \u0110\u00c3 L\u00c0 M\u1ed8T TH\u1eceA THU\u1eacN \u0110\u00c3 XONG"
+            }
+        },
+        {
+            "id": 202,
+            "answerTexts": {
+                "en": "FOLLOW THROUGH WITH YOUR GOOD INTENTIONS",
+                "vi": "THEO D\u00d5I NH\u1eeeNG \u00dd \u0110\u1ecaNH T\u1ed0T C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 203,
+            "answerTexts": {
+                "en": "TAKE MORE TIME TO DECIDE",
+                "vi": "D\u00c0NH TH\u00caM TH\u1edcI GIAN \u0110\u1ec2 QUY\u1ebeT \u0110\u1ecaNH"
+            }
+        },
+        {
+            "id": 204,
+            "answerTexts": {
+                "en": "FOLLOW THROUGH ON YOUR OBLIGATIONS",
+                "vi": "THEO D\u00d5I NGH\u0128A V\u1ee4 C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 205,
+            "answerTexts": {
+                "en": "DON\u2019T BE PRESSURED INTO ACTING TOO QUICKLY",
+                "vi": "\u0110\u1eeaNG B\u1eca \u00c1P L\u1ef0C PH\u1ea2I H\u00c0NH \u0110\u1ed8NG QU\u00c1 NHANH"
+            }
+        },
+        {
+            "id": 206,
+            "answerTexts": {
+                "en": "DON\u2019T IGNORE THE OBVIOUS",
+                "vi": "\u0110\u1eeaNG B\u1ece QUA S\u1ef0 R\u00d5 R\u00c0NG"
+            }
+        },
+        {
+            "id": 207,
+            "answerTexts": {
+                "en": "OTHERS WILL RESPECT YOUR CHOICES",
+                "vi": "NG\u01af\u1edcI KH\u00c1C S\u1ebc T\u00d4N TR\u1eccNG S\u1ef0 L\u1ef0A CH\u1eccN C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 208,
+            "answerTexts": {
+                "en": "DON\u2019T BE TOO PRACTICAL",
+                "vi": "\u0110\u1eeaNG QU\u00c1 TH\u1ef0C T\u1ebe"
+            }
+        },
+        {
+            "id": 209,
+            "answerTexts": {
+                "en": "BE A GOOD ROLE MODEL",
+                "vi": "TR\u1ede TH\u00c0NH M\u1ed8T H\u00ccNH M\u1eaaU T\u1ed0T"
+            }
+        },
+        {
+            "id": 210,
+            "answerTexts": {
+                "en": "IT\u2019S NOT WORTH A STRUGGLE",
+                "vi": "KH\u00d4NG X\u1ee8NG \u0110\u00c1NG \u0110\u1ec2 \u0110\u1ea4U TRANH"
+            }
+        },
+        {
+            "id": 211,
+            "answerTexts": {
+                "en": "LISTEN CAREFULLY; THEN YOU WILL KNOW",
+                "vi": "L\u1eaeNG NGHE M\u1ed8T C\u00c1CH C\u1ea8N TH\u1eacN; R\u1ed2I B\u1ea0N S\u1ebc BI\u1ebeT"
+            }
+        },
+        {
+            "id": 212,
+            "answerTexts": {
+                "en": "DON\u2019T FORGET TO HAVE FUN",
+                "vi": "\u0110\u1eeaNG QU\u00caN VUI V\u1eba"
+            }
+        },
+        {
+            "id": 213,
+            "answerTexts": {
+                "en": "DON\u2019T DOUBT IT",
+                "vi": "\u0110\u1eeaNG NGHI NG\u1edc"
+            }
+        },
+        {
+            "id": 214,
+            "answerTexts": {
+                "en": "A STRONG COMMITMENT WILL ACHIEVE GOOD RESULTS",
+                "vi": "CAM K\u1ebeT M\u1ea0NH M\u1ebc S\u1ebc \u0110\u1ea0T K\u1ebeT QU\u1ea2 T\u1ed0T"
+            }
+        },
+        {
+            "id": 215,
+            "answerTexts": {
+                "en": "TRY A MORE UNLIKELY SOLUTION",
+                "vi": "H\u00c3Y TH\u1eec M\u1ed8T GI\u1ea2I PH\u00c1P B\u1ea4T NG\u1edc H\u01a0N"
+            }
+        },
+        {
+            "id": 216,
+            "answerTexts": {
+                "en": "LEAVE BEHIND OLD SOLUTIONS",
+                "vi": "B\u1ece L\u1ea0I C\u00c1C GI\u1ea2I PH\u00c1P C\u0168"
+            }
+        },
+        {
+            "id": 217,
+            "answerTexts": {
+                "en": "KEEP IT TO YOURSELF",
+                "vi": "GI\u1eee N\u00d3 CHO RI\u00caNG M\u00ccNH"
+            }
+        },
+        {
+            "id": 218,
+            "answerTexts": {
+                "en": "WATCH YOUR STEP AS YOU GO",
+                "vi": "XEM B\u01af\u1edaC C\u1ee6A B\u1ea0N KHI B\u1ea0N \u0110I"
+            }
+        },
+        {
+            "id": 219,
+            "answerTexts": {
+                "en": "EXPLORE IT WITH PLAYFUL CURIOSITY",
+                "vi": "KH\u00c1M PH\u00c1 N\u00d3 B\u1eb0NG T\u00cdNH T\u00ccM HI\u1ec2U VUI CH\u01a0I"
+            }
+        },
+        {
+            "id": 220,
+            "answerTexts": {
+                "en": "DON\u2019T BE TOO DEMANDING",
+                "vi": "\u0110\u1eeaNG \u0110\u00f2i h\u1ecfi qu\u00e1 nhi\u1ec1u"
+            }
+        },
+        {
+            "id": 221,
+            "answerTexts": {
+                "en": "DON\u2019T LEAVE ROOM FOR REGRET",
+                "vi": "\u0110\u1eeaNG \u0110\u1ec2 L\u1ea0I CHO S\u1ef0 H\u1ed0I TI\u1ebeC"
+            }
+        },
+        {
+            "id": 222,
+            "answerTexts": {
+                "en": "ACT AS THOUGH IT IS ALREADY REAL",
+                "vi": "H\u00c3Y H\u00c0NH \u0110\u1ed8NG NH\u01af V\u1eacY L\u00c0 S\u1ef0 TH\u1eacT"
+            }
+        },
+        {
+            "id": 223,
+            "answerTexts": {
+                "en": "IT ISN\u2019T PERSONAL",
+                "vi": "N\u00d3 KH\u00d4NG PH\u1ea2I L\u00c0 C\u00c1 NH\u00c2N"
+            }
+        },
+        {
+            "id": 224,
+            "answerTexts": {
+                "en": "BE PERSISTENT",
+                "vi": "KI\u00caN TR\u00cc"
+            }
+        },
+        {
+            "id": 225,
+            "answerTexts": {
+                "en": "CHOOSE WHAT WILL MAKE YOU HAPPY",
+                "vi": "H\u00c3Y CH\u1eccN \u0110I\u1ec0U G\u00cc S\u1ebc L\u00c0M B\u1ea0N H\u1ea0NH PH\u00daC"
+            }
+        },
+        {
+            "id": 226,
+            "answerTexts": {
+                "en": "DON\u2019T LET MONEY DECIDE IT",
+                "vi": "\u0110\u1eeaNG \u0110\u1ec2 TI\u1ec0N QUY\u1ebeT \u0110\u1ecaNH"
+            }
+        },
+        {
+            "id": 227,
+            "answerTexts": {
+                "en": "IT WILL WORK ITSELF OUT",
+                "vi": "N\u00d3 S\u1ebc T\u1ef0 HO\u1ea0T \u0110\u1ed8NG"
+            }
+        },
+        {
+            "id": 228,
+            "answerTexts": {
+                "en": "IF IT\u2019S TOO DIFFICULT, MAYBE IT\u2019S NOT YOURS",
+                "vi": "N\u1ebeU QU\u00c1 KH\u00d3, C\u00d3 TH\u1ec2 KH\u00d4NG PH\u1ea2I L\u00c0 C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 229,
+            "answerTexts": {
+                "en": "IT COULD MEAN THAT YOU MAY HAVE TO DO SOMETHING THAT YOU\u2019VE NEVER DONE",
+                "vi": "\u0110\u00d3 C\u00d3 TH\u1ec2 C\u00d3 NGH\u0128A L\u00c0 B\u1ea0N C\u00d3 TH\u1ec2 PH\u1ea2I L\u00c0M \u0110I\u1ec0U G\u00cc M\u00c0 B\u1ea0N CH\u01afA BAO GI\u1edc L\u00c0M"
+            }
+        },
+        {
+            "id": 230,
+            "answerTexts": {
+                "en": "DECIDE WHERE YOU WANT TO BE AND HEAD IN THAT DIRECTION",
+                "vi": "H\u00c3Y QUY\u1ebeT \u0110\u1ecaNH N\u01a0I B\u1ea0N MU\u1ed0N \u0110\u1ebeN V\u00c0 \u0110I THEO H\u01af\u1edaNG \u0110\u00d3"
+            }
+        },
+        {
+            "id": 231,
+            "answerTexts": {
+                "en": "CAST YOUR NET WIDER",
+                "vi": "CAST M\u1ea0NG C\u1ee6A B\u1ea0N R\u1ed8NG H\u01a0N"
+            }
+        },
+        {
+            "id": 232,
+            "answerTexts": {
+                "en": "MAKE NO ASSUMPTIONS",
+                "vi": "KH\u00d4NG C\u00d3 GI\u1ea2 \u0110\u1ecaNH"
+            }
+        },
+        {
+            "id": 233,
+            "answerTexts": {
+                "en": "RESPECT THE FUNDAMENTALS",
+                "vi": "T\u00d4N TR\u1eccNG C\u00c1C Y\u1ebeU T\u1ed0 C\u01a0 B\u1ea2N"
+            }
+        },
+        {
+            "id": 234,
+            "answerTexts": {
+                "en": "BE RESOURCEFUL",
+                "vi": "H\u00c3Y NGU\u1ed2N L\u1ef0C"
+            }
+        },
+        {
+            "id": 235,
+            "answerTexts": {
+                "en": "FIND MORE TIME",
+                "vi": "T\u00ccM TH\u00caM TH\u1edcI GIAN"
+            }
+        },
+        {
+            "id": 236,
+            "answerTexts": {
+                "en": "NOTHING WILL COMPARE",
+                "vi": "KH\u00d4NG C\u00d3 G\u00cc S\u1ebc SO S\u00c1NH"
+            }
+        },
+        {
+            "id": 237,
+            "answerTexts": {
+                "en": "IT WILL BE AN OPPORTUNITY",
+                "vi": "N\u00d3 S\u1ebc L\u00c0 M\u1ed8T C\u01a0 H\u1ed8I"
+            }
+        },
+        {
+            "id": 238,
+            "answerTexts": {
+                "en": "DON\u2019T GIVE UP YOUR RIGHT TO WAIT",
+                "vi": "\u0110\u1eeaNG T\u1eea B\u1ece QUY\u1ec0N CH\u1edc \u0110\u1ee2I"
+            }
+        },
+        {
+            "id": 239,
+            "answerTexts": {
+                "en": "BE DELIBERATE",
+                "vi": "H\u00c3Y C\u1ed0 \u0110\u1ecaNH"
+            }
+        },
+        {
+            "id": 240,
+            "answerTexts": {
+                "en": "WHY IS IT IMPORTANT TO YOU?",
+                "vi": "T\u1ea0I SAO N\u00d3 QUAN TR\u1eccNG V\u1edaI B\u1ea0N?"
+            }
+        },
+        {
+            "id": 241,
+            "answerTexts": {
+                "en": "DON\u2019T LET THE MOMENT PASS",
+                "vi": "\u0110\u1eeaNG \u0110\u1ec2 TH\u1edcI \u0110I\u1ec2M TR\u1ea2 L\u1edcI"
+            }
+        },
+        {
+            "id": 242,
+            "answerTexts": {
+                "en": "YOU\u2019LL GET WHAT YOU SETTLE FOR",
+                "vi": "B\u1ea0N S\u1ebc NH\u1eacN \u0110\u01af\u1ee2C NH\u1eeeNG G\u00cc M\u00ccNH MANG L\u1ea0I"
+            }
+        },
+        {
+            "id": 243,
+            "answerTexts": {
+                "en": "CHOOSE WHATEVER WILL HELP YOU TO GROW",
+                "vi": "H\u00c3Y CH\u1eccN C\u00c1I G\u00cc S\u1ebc GI\u00daP B\u1ea0N PH\u00c1T TRI\u1ec2N"
+            }
+        },
+        {
+            "id": 244,
+            "answerTexts": {
+                "en": "BE KIND",
+                "vi": "T\u1eec T\u1ebe"
+            }
+        },
+        {
+            "id": 245,
+            "answerTexts": {
+                "en": "REALIZE THAT TOO MANY CHOICES CAN BE AS DIFFICULT AS TOO FEW",
+                "vi": "NH\u1eacN TH\u1ee8C R\u1eb0NG QU\u00c1 NHI\u1ec0U S\u1ef0 L\u1ef0A CH\u1eccN C\u00d3 TH\u1ec2 KH\u00d3 NH\u01af QU\u00c1 NHI\u1ec0U L\u1ef0A CH\u1eccN"
+            }
+        },
+        {
+            "id": 246,
+            "answerTexts": {
+                "en": "TAKE A CHANCE",
+                "vi": "N\u1eaeM B\u1eaeT C\u01a0 H\u1ed8I"
+            }
+        },
+        {
+            "id": 247,
+            "answerTexts": {
+                "en": "YOU WILL HAVE EVERYTHING NECESSARY FOR YOUR SUCCESS",
+                "vi": "B\u1ea0N S\u1ebc C\u00d3 M\u1eccI TH\u1ee8 C\u1ea6N THI\u1ebeT CHO S\u1ef0 TH\u00c0NH C\u00d4NG C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 248,
+            "answerTexts": {
+                "en": "OTHERS MAY NOT APPROVE",
+                "vi": "NG\u01af\u1edcI KH\u00c1C C\u00d3 TH\u1ec2 KH\u00d4NG DUY\u1ec6T"
+            }
+        },
+        {
+            "id": 249,
+            "answerTexts": {
+                "en": "YOU\u2019LL HAVE THE STRENGTH YOU\u2019LL NEED",
+                "vi": "B\u1ea0N S\u1ebc C\u00d3 S\u1ee8C M\u1ea0NH M\u00c0 B\u1ea0N C\u1ea6N"
+            }
+        },
+        {
+            "id": 250,
+            "answerTexts": {
+                "en": "INITIATE AN ADVENTURE",
+                "vi": "B\u1eaeT \u0110\u1ea6U M\u1ed8T CU\u1ed8C PHI\u00caU L\u01afU"
+            }
+        },
+        {
+            "id": 251,
+            "answerTexts": {
+                "en": "BE TACTFUL",
+                "vi": "H\u00c3Y T\u1eec T\u1ebe"
+            }
+        },
+        {
+            "id": 252,
+            "answerTexts": {
+                "en": "YOU\u2019LL NEED TO CONSIDER OTHER WAYS",
+                "vi": "B\u1ea0N S\u1ebc C\u1ea6N XEM X\u00c9T NH\u1eeeNG C\u00c1CH KH\u00c1C"
+            }
+        },
+        {
+            "id": 253,
+            "answerTexts": {
+                "en": "FIGURE OUT A WAY",
+                "vi": "T\u00ccM RA M\u1ed8T C\u00c1CH"
+            }
+        },
+        {
+            "id": 254,
+            "answerTexts": {
+                "en": "IT COULD BE A MATTER OF PRIDE",
+                "vi": "N\u00d3 C\u00d3 TH\u1ec2 L\u00c0 V\u1ea4N \u0110\u1ec0 C\u1ee6A NI\u1ec0M T\u1ef0 H\u00c0O"
+            }
+        },
+        {
+            "id": 255,
+            "answerTexts": {
+                "en": "PURSUE MORE VARIETY",
+                "vi": "THEO D\u00d5I TH\u00caM \u0110A D\u1ea0NG"
+            }
+        },
+        {
+            "id": 256,
+            "answerTexts": {
+                "en": "DON\u2019T GET CAUGHT UP IN YOUR EMOTIONS",
+                "vi": "\u0110\u1eeaNG B\u1eaeT BU\u1ed8C TRONG C\u1ea2M X\u00daC C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 257,
+            "answerTexts": {
+                "en": "PITCH IN WHATEVER YOU CAN",
+                "vi": "PITCH V\u00c0O B\u1ea4T C\u1ee8 N\u00c0O B\u1ea0N C\u00d3 TH\u1ec2"
+            }
+        },
+        {
+            "id": 258,
+            "answerTexts": {
+                "en": "ARRIVE EARLY",
+                "vi": "\u0110\u1ebeN S\u1edaM"
+            }
+        },
+        {
+            "id": 259,
+            "answerTexts": {
+                "en": "NO MATTER WHAT",
+                "vi": "KH\u00d4NG C\u00d3 V\u1ea4N \u0110\u1ec0 G\u00cc"
+            }
+        },
+        {
+            "id": 260,
+            "answerTexts": {
+                "en": "YOU ARE TOO CLOSE TO SEE",
+                "vi": "B\u1ea0N QU\u00c1 G\u1ea6N \u0110\u1ec2 XEM"
+            }
+        },
+        {
+            "id": 261,
+            "answerTexts": {
+                "en": "YES",
+                "vi": "\u0110\u00daNG"
+            }
+        },
+        {
+            "id": 262,
+            "answerTexts": {
+                "en": "DON\u2019T TAKE A CHANCE",
+                "vi": "\u0110\u1eeaNG L\u1ea4Y C\u01a0 H\u1ed8I"
+            }
+        },
+        {
+            "id": 263,
+            "answerTexts": {
+                "en": "IT IS NOT SOMETHING TO BE TAKEN LIGHTLY",
+                "vi": "KH\u00d4NG PH\u1ea2I L\u00c0 M\u1ed8T VI\u1ec6C N\u00c0O C\u00d3 TH\u1ec2 D\u00d9NG NH\u1eb8"
+            }
+        },
+        {
+            "id": 264,
+            "answerTexts": {
+                "en": "BE CONTENT TO LEAVE WELL ENOUGH ALONE",
+                "vi": "H\u00c3Y B\u1eb0NG L\u00d2NG \u0110\u1ec2 \u1ede M\u1ed8T M\u00ccNH \u0110\u1ee6 \u0110\u1ea6Y \u0110\u1ee6"
+            }
+        },
+        {
+            "id": 265,
+            "answerTexts": {
+                "en": "TOO MUCH ATTENTION IS ON THE DETAILS",
+                "vi": "QU\u00c1 NHI\u1ec0U CH\u00da \u00dd V\u00c0O CHI TI\u1ebeT"
+            }
+        },
+        {
+            "id": 266,
+            "answerTexts": {
+                "en": "KEEP IT LIGHT",
+                "vi": "GI\u1eee N\u00d3 \u00c1NH S\u00c1NG"
+            }
+        },
+        {
+            "id": 267,
+            "answerTexts": {
+                "en": "GET MORE SLEEP",
+                "vi": "NG\u1ee6 NHI\u1ec0U H\u01a0N"
+            }
+        },
+        {
+            "id": 268,
+            "answerTexts": {
+                "en": "RECONSIDER ANOTHER POSSIBILITY",
+                "vi": "XEM X\u00c9T KH\u1ea2 N\u0102NG KH\u00c1C"
+            }
+        },
+        {
+            "id": 269,
+            "answerTexts": {
+                "en": "IT MAY NOT BE LOGICAL",
+                "vi": "C\u00d3 TH\u1ec2 KH\u00d4NG H\u1ee2P L\u00dd"
+            }
+        },
+        {
+            "id": 270,
+            "answerTexts": {
+                "en": "THE ANSWER IS IN YOUR BACKYARD",
+                "vi": "C\u00c2U TR\u1ea2 L\u1edcI L\u00c0 TRONG SAU NH\u00c0 B\u1ea0N"
+            }
+        },
+        {
+            "id": 271,
+            "answerTexts": {
+                "en": "MAKE A CONTRIBUTION",
+                "vi": "\u0110\u00d3NG G\u00d3P"
+            }
+        },
+        {
+            "id": 272,
+            "answerTexts": {
+                "en": "USE YOUR IMAGINATION",
+                "vi": "S\u1eec D\u1ee4NG TR\u00cd T\u01af\u1edeNG T\u01af\u1ee2NG C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 273,
+            "answerTexts": {
+                "en": "KNOW NO LIMITATIONS",
+                "vi": "KH\u00d4NG BI\u1ebeT GI\u1edaI H\u1ea0N"
+            }
+        },
+        {
+            "id": 274,
+            "answerTexts": {
+                "en": "BUILD SOMETHING BIGGER",
+                "vi": "X\u00c2Y D\u1ef0NG M\u1ed8T G\u00cc L\u1edaN H\u01a0N"
+            }
+        },
+        {
+            "id": 275,
+            "answerTexts": {
+                "en": "AIM HIGHER",
+                "vi": "M\u1ee4C \u0110\u00cdCH CAO H\u01a0N"
+            }
+        },
+        {
+            "id": 276,
+            "answerTexts": {
+                "en": "TAKE IT IN STRIDE",
+                "vi": "H\u00c3Y SANG TR\u1eccNG"
+            }
+        },
+        {
+            "id": 277,
+            "answerTexts": {
+                "en": "BE A GOOD SPORT",
+                "vi": "H\u00c3Y L\u00c0 M\u1ed8T TH\u1ec2 THAO T\u1ed0T"
+            }
+        },
+        {
+            "id": 278,
+            "answerTexts": {
+                "en": "TAKE THE LEAD",
+                "vi": "D\u1eaaN \u0110\u1ea6U"
+            }
+        },
+        {
+            "id": 279,
+            "answerTexts": {
+                "en": "THERE IS A SMALL PRICE TO PAY",
+                "vi": "C\u00d3 M\u1ed8T GI\u00c1 NH\u1ece PH\u1ea2I TR\u1ea2"
+            }
+        },
+        {
+            "id": 280,
+            "answerTexts": {
+                "en": "DON\u2019T BE TOO CRITICAL",
+                "vi": "\u0110\u1eeaNG QU\u00c1 CH\u1ec8 PH\u00c9P"
+            }
+        },
+        {
+            "id": 281,
+            "answerTexts": {
+                "en": "PUT YOUR FEELINGS IN THE RIGHT PLACE",
+                "vi": "\u0110\u1eb6T C\u1ea2M X\u00daC C\u1ee6A B\u1ea0N \u0110\u00daNG CH\u1ed6"
+            }
+        },
+        {
+            "id": 282,
+            "answerTexts": {
+                "en": "IDENTIFY WHAT MATTERS ABOUT IT",
+                "vi": "X\u00c1C \u0110\u1ecaNH \u0110I\u1ec0U G\u00cc QUAN TR\u1eccNG V\u1ec0 N\u00d3"
+            }
+        },
+        {
+            "id": 283,
+            "answerTexts": {
+                "en": "HOW THINGS TURN OUT WILL DEPEND ON YOU",
+                "vi": "M\u1eccI TH\u1ee8 XU\u1ea4T HI\u1ec6N NH\u01af TH\u1ebe N\u00c0O S\u1ebc PH\u1ee4 THU\u1ed8C V\u00c0O B\u1ea0N"
+            }
+        },
+        {
+            "id": 284,
+            "answerTexts": {
+                "en": "LOOK FOR WHAT MAY BE HIDDEN",
+                "vi": "T\u00ccM KI\u1ebeM NH\u1eeeNG G\u00cc C\u00d3 TH\u1ec2 B\u1eca \u1ea8N"
+            }
+        },
+        {
+            "id": 285,
+            "answerTexts": {
+                "en": "LET YOUR EMOTIONS GUIDE YOU",
+                "vi": "H\u00c3Y \u0110\u1ec2 C\u1ea2M X\u00daC C\u1ee6A B\u1ea0N H\u01af\u1edaNG D\u1eaaN B\u1ea0N"
+            }
+        },
+        {
+            "id": 286,
+            "answerTexts": {
+                "en": "REVEAL YOUR THOUGHTS TO A TRUSTED CONFIDANTE",
+                "vi": "TI\u1ebeT L\u1ed8 SUY NGH\u0128 C\u1ee6A B\u1ea0N CHO M\u1ed8T NG\u01af\u1edcI \u0110\u00c1NG TIN C\u1eacY"
+            }
+        },
+        {
+            "id": 287,
+            "answerTexts": {
+                "en": "TAKE A CLOSER LOOK",
+                "vi": "H\u00c3Y XEM K\u1ef8 H\u01a0N"
+            }
+        },
+        {
+            "id": 288,
+            "answerTexts": {
+                "en": "DON\u2019T BE CONCERNED",
+                "vi": "\u0110\u1eeaNG QUAN T\u00c2M"
+            }
+        },
+        {
+            "id": 289,
+            "answerTexts": {
+                "en": "YOU CAN DO THIS ON YOUR OWN",
+                "vi": "B\u1ea0N C\u00d3 TH\u1ec2 L\u00c0M \u0110I\u1ec0U N\u00c0Y M\u1ed8T M\u00ccNH"
+            }
+        },
+        {
+            "id": 290,
+            "answerTexts": {
+                "en": "ASK FOR HELP",
+                "vi": "Y\u00caU C\u1ea6U GI\u00daP \u0110\u1ee0"
+            }
+        },
+        {
+            "id": 291,
+            "answerTexts": {
+                "en": "CREATE MORE SPACE FOR IT",
+                "vi": "T\u1ea0O TH\u00caM KH\u00d4NG GIAN CHO N\u00d3"
+            }
+        },
+        {
+            "id": 292,
+            "answerTexts": {
+                "en": "DIVERT YOUR ATTENTION",
+                "vi": "CHUY\u1ec2N \u0110\u1ed4I S\u1ef0 CH\u00da \u00dd C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 293,
+            "answerTexts": {
+                "en": "WHAT DO YOU WANT?",
+                "vi": "B\u1ea0N MU\u1ed0N G\u00cc?"
+            }
+        },
+        {
+            "id": 294,
+            "answerTexts": {
+                "en": "DO YOUR BEST TO SET THE STANDARD",
+                "vi": "N\u1ed6 L\u1ef0C \u0110\u1ec2 THI\u1ebeT L\u1eacP TI\u00caU CHU\u1ea8N"
+            }
+        },
+        {
+            "id": 295,
+            "answerTexts": {
+                "en": "THERE IS GOOD REASON TO BE OPTIMISTIC",
+                "vi": "C\u00d3 L\u00dd DO CH\u00cdNH X\u00c1C \u0110\u1ec2 L\u1ea0C QUAN"
+            }
+        },
+        {
+            "id": 296,
+            "answerTexts": {
+                "en": "DON\u2019T BE DISTRACTED",
+                "vi": "KH\u00d4NG \u0110\u01af\u1ee2C PH\u00c2N T\u00cdCH"
+            }
+        },
+        {
+            "id": 297,
+            "answerTexts": {
+                "en": "ENJOY A NEW SETTING",
+                "vi": "T\u1eacN H\u01af\u1edeNG C\u00c0I \u0110\u1eb6T M\u1edaI"
+            }
+        },
+        {
+            "id": 298,
+            "answerTexts": {
+                "en": "YOU WILL NEED TO ACCOMMODATE",
+                "vi": "B\u1ea0N S\u1ebc C\u1ea6N CH\u1ed6 \u1ede"
+            }
+        },
+        {
+            "id": 299,
+            "answerTexts": {
+                "en": "REMAIN OBJECTIVE",
+                "vi": "DUY TR\u00cc M\u1ee4C TI\u00caU"
+            }
+        },
+        {
+            "id": 300,
+            "answerTexts": {
+                "en": "TELL SOMEONE WHAT IT MEANS TO YOU",
+                "vi": "N\u00d3I V\u1edaI AI \u0110\u00d3 \u00dd NGH\u0128A V\u1edaI B\u1ea0N"
+            }
+        },
+        {
+            "id": 301,
+            "answerTexts": {
+                "en": "CONSIDER IT AN OPPORTUNITY",
+                "vi": "H\u00c3Y XEM L\u00c0 M\u1ed8T C\u01a0 H\u1ed8I"
+            }
+        },
+        {
+            "id": 302,
+            "answerTexts": {
+                "en": "SEEK OUT THE PATH OF LEAST RESISTANCE",
+                "vi": "T\u00ccM RA CON \u0110\u01af\u1edcNG \u00cdT KH\u00c1NG L\u1ef0C nh\u1ea5t"
+            }
+        },
+        {
+            "id": 303,
+            "answerTexts": {
+                "en": "GOOD THINGS ARE SEEKING YOU OUT",
+                "vi": "NH\u1eeeNG \u0110I\u1ec0U T\u1ed0T \u0110\u1eb8P \u0110ANG T\u00ccM KI\u1ebeM B\u1ea0N"
+            }
+        },
+        {
+            "id": 304,
+            "answerTexts": {
+                "en": "IT WON\u2019T MATTER WHEN YOU DO, BUT THAT YOU DO",
+                "vi": "KH\u00d4NG QUAN TR\u1eccNG KHI B\u1ea0N L\u00c0M NH\u01af TH\u1ebe N\u00c0O M\u00c0 B\u1ea0N L\u00c0M"
+            }
+        },
+        {
+            "id": 305,
+            "answerTexts": {
+                "en": "YOU MAY BE HANGING ON TO AN OUTDATED IDEAL",
+                "vi": "B\u1ea0N C\u00d3 TH\u1ec2 \u0110ANG TREO V\u00c0O M\u1ed8T L\u00dd T\u01af\u1edeNG \u0110\u00c3 L\u1ed6I TH\u1edcI"
+            }
+        },
+        {
+            "id": 306,
+            "answerTexts": {
+                "en": "IT\u2019LL CHANGE YOUR LUCK",
+                "vi": "N\u00d3 S\u1ebc THAY \u0110\u1ed4I MAY M\u1eaeN C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 307,
+            "answerTexts": {
+                "en": "DON\u2019T RESIST",
+                "vi": "\u0110\u1eeaNG CH\u1ed0NG L\u1ea0I"
+            }
+        },
+        {
+            "id": 308,
+            "answerTexts": {
+                "en": "FOLLOW THE DIRECTIONS",
+                "vi": "L\u00c0M THEO H\u01af\u1edaNG D\u1eaaN"
+            }
+        },
+        {
+            "id": 309,
+            "answerTexts": {
+                "en": "THE BEST SOLUTION MAY BE THE OBVIOUS ONE",
+                "vi": "GI\u1ea2I PH\u00c1P T\u1ed0T NH\u1ea4T C\u00d3 TH\u1ec2 L\u00c0 GI\u1ea2I PH\u00c1P R\u00d5 R\u00c0NG"
+            }
+        },
+        {
+            "id": 310,
+            "answerTexts": {
+                "en": "DON\u2019T BE TOO CAUTIOUS",
+                "vi": "\u0110\u1eeaNG QU\u00c1 TH\u1eacN TR\u1eccNG"
+            }
+        },
+        {
+            "id": 311,
+            "answerTexts": {
+                "en": "YOU MAY REGRET IT",
+                "vi": "B\u1ea0N C\u00d3 TH\u1ec2 H\u1ed0I TI\u1ebeC"
+            }
+        },
+        {
+            "id": 312,
+            "answerTexts": {
+                "en": "IS IT IMPORTANT TO YOU?",
+                "vi": "C\u00d3 QUAN TR\u1eccNG V\u1edaI B\u1ea0N KH\u00d4NG?"
+            }
+        },
+        {
+            "id": 313,
+            "answerTexts": {
+                "en": "CHOOSE YOUR WORDS CAREFULLY",
+                "vi": "CH\u1eccN T\u1eea C\u1ee6A B\u1ea0N C\u1ea8N TH\u1eacN"
+            }
+        },
+        {
+            "id": 314,
+            "answerTexts": {
+                "en": "LIMIT THE OPTIONS",
+                "vi": "GI\u1edaI H\u1ea0N C\u00c1C T\u00d9Y CH\u1eccN"
+            }
+        },
+        {
+            "id": 315,
+            "answerTexts": {
+                "en": "FOCUS YOUR ATTENTION",
+                "vi": "T\u1eacP TRUNG S\u1ef0 CH\u00da \u00dd C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 316,
+            "answerTexts": {
+                "en": "SHOULDN\u2019T YOU BE OUTSIDE PLAYING?",
+                "vi": "B\u1ea0N KH\u00d4NG N\u00caN RA NGO\u00c0I CH\u01a0I?"
+            }
+        },
+        {
+            "id": 317,
+            "answerTexts": {
+                "en": "WOULD IT BE A PLEASURE?",
+                "vi": "N\u00d3 C\u00d3 L\u00c0 NI\u1ec0M VUI KH\u00d4NG?"
+            }
+        },
+        {
+            "id": 318,
+            "answerTexts": {
+                "en": "BE ON TIME",
+                "vi": "\u0110\u00daNG GI\u1edc"
+            }
+        },
+        {
+            "id": 319,
+            "answerTexts": {
+                "en": "ASK YOUR FATHER",
+                "vi": "H\u1eceI B\u1ed0 B\u1ea0N \u1ea4Y"
+            }
+        },
+        {
+            "id": 320,
+            "answerTexts": {
+                "en": "ASK YOUR MOTHER",
+                "vi": "H\u00c3Y H\u1eceI M\u1eb8 C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 321,
+            "answerTexts": {
+                "en": "TAKE YOUR TIME",
+                "vi": "D\u00c0NH TH\u1edcI GIAN C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 322,
+            "answerTexts": {
+                "en": "YES, BUT DON\u2019T FORCE IT",
+                "vi": "C\u00d3, NH\u01afNG \u0110\u1eeaNG B\u1eaeT BU\u1ed8C"
+            }
+        },
+        {
+            "id": 323,
+            "answerTexts": {
+                "en": "THERE IS MORE TO KNOW",
+                "vi": "C\u00d3 TH\u00caM \u0110\u1ec2 BI\u1ebeT"
+            }
+        },
+        {
+            "id": 324,
+            "answerTexts": {
+                "en": "FIND OUT THE FACTS",
+                "vi": "T\u00ccM HI\u1ec2U S\u1ef0 TH\u1eacT"
+            }
+        },
+        {
+            "id": 325,
+            "answerTexts": {
+                "en": "NOT IF YOU\u2019RE ALONE",
+                "vi": "KH\u00d4NG N\u1ebeU B\u1ea0N \u0110ANG M\u1ed8T M\u00ccNH"
+            }
+        },
+        {
+            "id": 326,
+            "answerTexts": {
+                "en": "UNCOVER MORE DETAILS",
+                "vi": "KH\u00c1M PH\u00c1 TH\u00caM CHI TI\u1ebeT"
+            }
+        },
+        {
+            "id": 327,
+            "answerTexts": {
+                "en": "YOUR HEART ISN\u2019T IN IT",
+                "vi": "TR\u00c1I TIM C\u1ee6A B\u1ea0N KH\u00d4NG \u1ede TRONG N\u00d3"
+            }
+        },
+        {
+            "id": 328,
+            "answerTexts": {
+                "en": "BE HAPPY FOR ANOTHER",
+                "vi": "H\u00c3Y VUI V\u1eba CHO NG\u01af\u1edcI KH\u00c1C"
+            }
+        },
+        {
+            "id": 329,
+            "answerTexts": {
+                "en": "YOU ARE FAVORED",
+                "vi": "B\u1ea0N \u0110\u01af\u1ee2C Y\u00caU TH\u00cdCH"
+            }
+        },
+        {
+            "id": 330,
+            "answerTexts": {
+                "en": "NEVER",
+                "vi": "KH\u00d4NG BAO GI\u1edc"
+            }
+        },
+        {
+            "id": 331,
+            "answerTexts": {
+                "en": "A YEAR FROM NOW IT WON\u2019T MATTER",
+                "vi": "M\u1ed8T N\u0102M T\u1eea B\u00c2Y GI\u1edc S\u1ebc KH\u00d4NG V\u1ea4N \u0110\u1ec0"
+            }
+        },
+        {
+            "id": 332,
+            "answerTexts": {
+                "en": "ARE YOU READY?",
+                "vi": "B\u1ea0N \u0110\u00c3 S\u1eb4N S\u00c0NG CH\u01afA?"
+            }
+        },
+        {
+            "id": 333,
+            "answerTexts": {
+                "en": "YOU MUST",
+                "vi": "B\u1ea0N PH\u1ea2I"
+            }
+        },
+        {
+            "id": 334,
+            "answerTexts": {
+                "en": "NO",
+                "vi": "KH\u00d4NG"
+            }
+        },
+        {
+            "id": 335,
+            "answerTexts": {
+                "en": "CONSERVE YOUR RESOURCES",
+                "vi": "B\u1ea2O T\u1ed2N T\u00c0I NGUY\u00caN C\u1ee6A B\u1ea0N"
+            }
+        },
+        {
+            "id": 336,
+            "answerTexts": {
+                "en": "BE A GOOD ROLE MODEL",
+                "vi": "TR\u1ede TH\u00c0NH M\u1ed8T H\u00ccNH M\u1eaaU T\u1ed0T"
+            }
+        },
+        {
+            "id": 337,
+            "answerTexts": {
+                "en": "NEGOTIATE A BETTER DEAL",
+                "vi": "\u0110\u00c0M PH\u00c1N M\u1ed8T GIAO D\u1ecaCH T\u1ed0T H\u01a0N"
+            }
+        },
+        {
+            "id": 338,
+            "answerTexts": {
+                "en": "FAVOR THE GOOD THINGS",
+                "vi": "\u1ee6NG H\u1ed8 NH\u1eeeNG \u0110I\u1ec0U T\u1ed0T \u0110\u1eb8P"
+            }
+        },
+        {
+            "id": 339,
+            "answerTexts": {
+                "en": "DON\u2019T LET IT BE RUINED BY REASON",
+                "vi": "\u0110\u1eeaNG \u0110\u1ec2 V\u00cc L\u00dd DO PH\u00c1 H\u1ee6Y"
+            }
+        },
+        {
+            "id": 340,
+            "answerTexts": {
+                "en": "SLEEP ON IT",
+                "vi": "NG\u1ee6 TR\u00caN N\u00d3"
+            }
+        },
+        {
+            "id": 341,
+            "answerTexts": {
+                "en": "DO YOUR BEST",
+                "vi": "L\u00c0M H\u1ebeT S\u1ee8C M\u00ccNH \u0110I"
+            }
+        },
+        {
+            "id": 342,
+            "answerTexts": {
+                "en": "IT IS NOT SIGNIFICANT",
+                "vi": "KH\u00d4NG QUAN TR\u1eccNG"
+            }
+        },
+        {
+            "id": 343,
+            "answerTexts": {
+                "en": "YOU HAVE SO MUCH TO OFFER",
+                "vi": "B\u1ea0N C\u00d3 R\u1ea4T NHI\u1ec0U \u0110\u1ec2 \u01afU \u0110\u00c3I"
+            }
+        },
+        {
+            "id": 344,
+            "answerTexts": {
+                "en": "KNOW WHAT\u2019S IMPORTANT TO YOU",
+                "vi": "BI\u1ebeT \u0110I\u1ec0U G\u00cc QUAN TR\u1eccNG V\u1edaI B\u1ea0N"
+            }
+        },
+        {
+            "id": 345,
+            "answerTexts": {
+                "en": "YOU DESERVE THE BEST",
+                "vi": "B\u1ea0N X\u1ee8NG \u0110\u00c1NG V\u1edaI \u0110I\u1ec0U T\u1ed0T NH\u1ea4T"
+            }
+        },
+        {
+            "id": 346,
+            "answerTexts": {
+                "en": "BETTER THINGS ARE SEEKING YOU OUT",
+                "vi": "NH\u1eeeNG \u0110I\u1ec0U T\u1ed0T H\u01a0N \u0110ANG T\u00ccM KI\u1ebeM B\u1ea0N"
+            }
+        },
+        {
+            "id": 347,
+            "answerTexts": {
+                "en": "IT\u2019S UP TO YOU",
+                "vi": "T\u00d9Y B\u1ea0N \u0110\u1ea4Y"
+            }
+        },
+        {
+            "id": 348,
+            "answerTexts": {
+                "en": "CHOOSE WHAT MAKES YOU HAPPY",
+                "vi": "H\u00c3Y CH\u1eccN \u0110I\u1ec0U L\u00c0M B\u1ea0N H\u1ea0NH PH\u00daC"
+            }
+        },
+        {
+            "id": 349,
+            "answerTexts": {
+                "en": "LET YOUR HEART LEAD THE WAY",
+                "vi": "H\u00c3Y \u0110\u1ec2 TR\u00c1I TIM D\u1eaaN \u0110\u01af\u1edcNG"
+            }
+        },
+        {
+            "id": 350,
+            "answerTexts": {
+                "en": "DON\u2019T GET CAUGHT UP IN THE DETAILS",
+                "vi": "\u0110\u1eeaNG B\u1eaeT BU\u1ed8C V\u00c0O CHI TI\u1ebeT"
+            }
+        }
+    ]
+}

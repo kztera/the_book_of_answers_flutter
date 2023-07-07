@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'answer.dart';
 import 'package:the_book_of_answers_flutter/start_screen.dart';
+import 'dart:developer' as developer;
 import 'dart:math';
+import 'package:flutter/services.dart';
 
 class AnswerScreen extends StatefulWidget {
   final List<Answer> answers;
@@ -13,18 +15,42 @@ class AnswerScreen extends StatefulWidget {
 }
 
 class _AnswerScreenState extends State<AnswerScreen> {
-  Answer? randomAnswer;
+  Answer? currentAnswer;
+  Answer? previousAnswer;
+  String languageCode = 'en'; // Default language code, e.g., 'en' for English
 
   @override
   void initState() {
     super.initState();
-    randomAnswer = getRandomAnswer();
+    currentAnswer = getRandomAnswer();
   }
 
   Answer getRandomAnswer() {
     final random = Random();
-    final index = random.nextInt(widget.answers.length);
-    return widget.answers[index];
+    Answer randomAnswer;
+
+    do {
+      randomAnswer = widget.answers[random.nextInt(widget.answers.length)];
+    } while (randomAnswer == previousAnswer);
+
+    return randomAnswer;
+  }
+
+  // void updateRandomAnswer() {
+  //   setState(() {
+  //     previousAnswer = currentAnswer;
+  //     currentAnswer = getRandomAnswer();
+  //   });
+  // }
+
+  void changeLanguage(String newLanguageCode) {
+    setState(() {
+      languageCode = newLanguageCode;
+    });
+  }
+
+  String getAnswerText() {
+    return currentAnswer!.answerTexts[languageCode] ?? '';
   }
 
   @override
@@ -44,12 +70,16 @@ class _AnswerScreenState extends State<AnswerScreen> {
               children: <Widget>[
                 TextButton(
                   onPressed: () {
-                    setState(() {
-                      randomAnswer = getRandomAnswer();
-                    });
+                    Clipboard.setData(ClipboardData(text: getAnswerText()));
+                    developer
+                        .log('Text copied to clipboard: ${getAnswerText()}');
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(
+                          content: Text('Answer copied to clipboard')),
+                    );
                   },
                   child: Text(
-                    randomAnswer!.answer,
+                    getAnswerText(),
                     textAlign: TextAlign.center,
                     style: const TextStyle(
                       fontSize: 50,
