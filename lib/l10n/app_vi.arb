@@ -1,3 +1,14 @@
 {
-    "titleAppBar": "Tiếng Việt"
+    "titleAppBar": "Vị thần của những Quyết Định",
+    "introduction": "Cuốn sách này sẽ đưa ra đáp án cho mọi vấn đề của bạn . . .",
+    "instruct": "Suy nghĩ về câu hỏi trong đầu và nhấn vào cuốn sách",
+    "answerScreen": "Câu trả lời cho thắc mắc của bạn là: ",
+    "getOtherAnswer": "Muốn câu trả lời khác?",
+
+    "menuHowToUse": "Cách sử dụng",
+    "menuAbout": "Giới thiệu",
+    "menuHistory": "Câu trả lời trước đó",
+    "menuSettings": "Cài đặt",
+    "menuShare": "Chia sẻ ứng dụng này",
+    "menuFAQ": "Câu hỏi thường gặp"
 }

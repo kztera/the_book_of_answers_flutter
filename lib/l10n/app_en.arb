@@ -2,5 +2,20 @@
     "titleAppBar": "The Book of Answers",
     "@titleAppBar": {
         "description": "Title of the application bar"
-    }
+    },
+    "introduction": "This book will give you the answers when you have something unsolvable...",
+    "@introduction": {
+        "description": "Introduction text of the application"
+    },
+    "instruct": "Concentrate on a question and tap the book",
+    "answerScreen": "The answer given to your question is:",
+    "getOtherAnswer": "Get Other Answer",
+
+    "menuHowToUse": "How to use",
+    "menuAbout": "About",
+    "menuHistory": "Answers received",
+    "menuSettings": "Settings",
+    "menuShare": "Share this app",
+    "menuFAQ": "FAQs"
+
 }

@@ -7,8 +7,13 @@ import '../../classes/language.dart';
 class SharedAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String title;
   final Function(String) onLanguageChanged;
+  final String? nameScreen;
 
-  const SharedAppBar({Key? key, required this.title, required this.onLanguageChanged})
+  const SharedAppBar(
+      {Key? key,
+      required this.title,
+      required this.onLanguageChanged,
+      this.nameScreen})
       : super(key: key);
 
   void setLocale(BuildContext context, String languageCode) {
@@ -34,11 +39,18 @@ class SharedAppBar extends StatelessWidget implements PreferredSizeWidget {
       ),
       centerTitle: true,
       leading: IconButton(
-        icon: const Icon(
-          Icons.arrow_back,
-          color: Colors.black,
-        ),
-        onPressed: () {},
+        // if nameScreen is null, then it is the start screen use the menu icon instead of the back icon
+        icon: nameScreen == null
+            ? const Icon(Icons.menu)
+            : const Icon(Icons.arrow_back),
+        color: Colors.black,
+        onPressed: () {
+          if (nameScreen == null) {
+            Scaffold.of(context).openDrawer();
+          } else {
+            Navigator.pop(context);
+          }
+        },
       ),
       actions: <Widget>[
         PopupMenuButton<Language>(

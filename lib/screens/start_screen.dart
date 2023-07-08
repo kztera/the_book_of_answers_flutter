@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import 'components/share_appbar.dart';
+import 'components/navbar.dart';
 import '../classes/answer.dart';
 import 'answer_screen.dart';
 
@@ -19,7 +20,7 @@ class StartScreen extends StatefulWidget {
 
 class _StartScreenState extends State<StartScreen> {
   void handleLanguageChanged(String languageCode) {
-        setState(() {
+    setState(() {
       languageCode = languageCode;
     });
   }
@@ -27,6 +28,7 @@ class _StartScreenState extends State<StartScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: const NavBar(),
       extendBodyBehindAppBar: true,
       appBar: SharedAppBar(
         title: AppLocalizations.of(context).titleAppBar,
@@ -36,9 +38,10 @@ class _StartScreenState extends State<StartScreen> {
         top: true,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            const Text(
-              'This book will give you the answers when you have something unsolvable...',
+            Text(
+              AppLocalizations.of(context).introduction,
               textAlign: TextAlign.center,
             ),
             TextButton(
@@ -56,10 +59,10 @@ class _StartScreenState extends State<StartScreen> {
                 width: 300,
               ),
             ),
-            const Text(
-              'Concentrate on a question and tap the book',
+            Text(
+              AppLocalizations.of(context).instruct,
               textAlign: TextAlign.center,
-            )
+            ),
           ],
         ),
       ),

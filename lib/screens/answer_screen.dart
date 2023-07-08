@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import 'components/share_appbar.dart';
-import 'package:the_book_of_answers_flutter/screens/start_screen.dart';
+// import 'package:the_book_of_answers_flutter/screens/start_screen.dart';
 import '../classes/answer.dart';
 
 class AnswerScreen extends StatefulWidget {
@@ -22,7 +22,7 @@ class _AnswerScreenState extends State<AnswerScreen>
     with WidgetsBindingObserver {
   Answer? currentAnswer;
   Answer? previousAnswer;
-  String languageCode = 'en'; // Default language code, e.g., 'en' for English
+  String languageCode = 'vi'; // Default language code, e.g., 'en' for English
 
   @override
   void initState() {
@@ -81,17 +81,19 @@ class _AnswerScreenState extends State<AnswerScreen>
       appBar: SharedAppBar(
         title: AppLocalizations.of(context).titleAppBar,
         onLanguageChanged: changeLanguage,
+        nameScreen: "AnswerScreen",
       ),
       body: SafeArea(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              "This book will give you the answers when you have something unsolvable...",
+            Text(
+              AppLocalizations.of(context).answerScreen,
               textAlign: TextAlign.center,
             ),
             Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 TextButton(
@@ -119,7 +121,7 @@ class _AnswerScreenState extends State<AnswerScreen>
               onPressed: () {
                 updateRandomAnswer();
               },
-              child: const Text("Get Other Answer"),
+              child: Text(AppLocalizations.of(context).getOtherAnswer),
             ),
           ],
         ),
