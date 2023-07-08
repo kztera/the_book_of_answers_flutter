@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import 'package:the_book_of_answers_flutter/screens/instruct_screen.dart';
+
 class NavBar extends StatelessWidget {
   const NavBar({super.key});
 
@@ -30,7 +32,13 @@ class NavBar extends StatelessWidget {
                   leading: const Icon(Icons.book),
                   title: Text(AppLocalizations.of(context).menuHowToUse),
                   onTap: () {
-                    Navigator.pop(context);
+                    // Navigator.pop(context);
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const InstructScreen(),
+                      ),
+                    );
                   },
                 ),
                 ListTile(
