@@ -17,6 +17,13 @@
     "menuHistory": "Answers received",
     "menuSettings": "Settings",
     "menuShare": "Share this app",
-    "menuFAQ": "FAQs"
+    "menuFAQ": "FAQs",
 
+    "titleHowToUse" : "How to use this app",
+    "titleAbout" : "About this app",
+    "titleHistory" : "Answers received",
+    "titleSettings" : "Settings",
+    "titleFAQ" : "FAQs",
+
+    "pageHowToUse" : " "
 }

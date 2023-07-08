@@ -16,8 +16,11 @@ import '../extensions/string_extension.dart';
 
 class AnswerScreen extends StatefulWidget {
   final List<Answer> answers;
+  final String currentLanguageCode;
 
-  const AnswerScreen({Key? key, required this.answers}) : super(key: key);
+  const AnswerScreen(
+      {Key? key, required this.answers, required this.currentLanguageCode})
+      : super(key: key);
 
   @override
   State<AnswerScreen> createState() => _AnswerScreenState();
@@ -29,12 +32,14 @@ class _AnswerScreenState extends State<AnswerScreen>
 
   Answer? currentAnswer;
   Answer? previousAnswer;
-  String languageCode = 'vi'; // Default language code, e.g., 'en' for English
+  String languageCode = 'en'; // Default language code, e.g., 'en' for English
 
   @override
   void initState() {
     super.initState();
     currentAnswer = getRandomAnswer();
+    languageCode = widget.currentLanguageCode;
+    changeLanguage(languageCode);
     WidgetsBinding.instance.addObserver(this);
   }
 
@@ -80,17 +85,6 @@ class _AnswerScreenState extends State<AnswerScreen>
     await Share.shareXFiles(
       [XFile(file.path)],
     );
-    // ScreenshotController()
-    //     .capture(delay: const Duration(milliseconds: 10))
-    //     .then((Uint8List bytes) async {
-    //   final Directory dir = await getApplicationDocumentsDirectory();
-    //   final String ts = DateTime.now().millisecondsSinceEpoch.toString();
-
-    //   final String filePath = '${dir.path}/$ts.png';
-    //   await XFile.fromData(bytes).saveTo(filePath);
-
-    //   await Share.shareXFiles([XFile(filePath)], text: 'Share answer');
-    // });
   }
 
   @override
@@ -119,7 +113,7 @@ class _AnswerScreenState extends State<AnswerScreen>
             Text(AppLocalizations.of(context).answerScreen,
                 textAlign: TextAlign.center,
                 style: GoogleFonts.roboto(
-                  textStyle: const TextStyle(fontSize: 18, color: Colors.black),
+                  textStyle: const TextStyle(fontSize: 16, color: Colors.black),
                 )),
             Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -133,7 +127,7 @@ class _AnswerScreenState extends State<AnswerScreen>
                     height: 300,
                     decoration: BoxDecoration(
                       color: Colors.white,
-                      borderRadius: BorderRadius.circular(10),
+                      borderRadius: BorderRadius.circular(25),
                       boxShadow: [
                         BoxShadow(
                           color: Colors.grey.withOpacity(0.5),
@@ -143,29 +137,50 @@ class _AnswerScreenState extends State<AnswerScreen>
                         ),
                       ],
                     ),
-                    child: TextButton(
-                      onPressed: () {
-                        Clipboard.setData(ClipboardData(text: getAnswerText()));
-                        developer.log(
-                            'Text copied to clipboard: ${getAnswerText()}');
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(
-                              content: Text('Answer copied to clipboard')),
-                        );
-                      },
-                      child: Text(
-                        getAnswerText().capitalize(),
-                        textAlign: TextAlign.center,
-                        style: GoogleFonts.newsreader(
-                          textStyle: const TextStyle(
-                            color: Colors.black,
-                            fontSize: 50,
-                            fontWeight: FontWeight.bold,
-                            height: 1.2,
-                            letterSpacing: 0.6,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        TextButton(
+                          onPressed: () {
+                            Clipboard.setData(
+                                ClipboardData(text: getAnswerText()));
+                            developer.log(
+                                'Text copied to clipboard: ${getAnswerText()}');
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(
+                                  content: Text('Answer copied to clipboard')),
+                            );
+                          },
+                          child: Padding(
+                            padding: const EdgeInsets.all(5.0),
+                            child: Container(
+                              margin: const EdgeInsets.only(top: 15),
+                              child: Text(
+                                getAnswerText().capitalize(),
+                                textAlign: TextAlign.center,
+                                style: GoogleFonts.newsreader(
+                                  textStyle: const TextStyle(
+                                    color: Colors.black,
+                                    fontSize: 40,
+                                    fontWeight: FontWeight.bold,
+                                    height: 1.2,
+                                    letterSpacing: 0.6,
+                                  ),
+                                ),
+                              ),
+                            ),
                           ),
                         ),
-                      ),
+                        Text('@theBookOfAnswers',
+                            // style:
+                            //     TextStyle(color: Color.fromRGBO(0, 0, 0, 0.375)),
+                            style: GoogleFonts.newsreader(
+                              textStyle: const TextStyle(
+                                color: Color.fromRGBO(0, 0, 0, 0.375),
+                                fontSize: 14,
+                              ),
+                            )),
+                      ],
                     ),
                   ),
                 ),

@@ -47,7 +47,12 @@ class Main extends StatefulWidget {
 
   static void setLocale(BuildContext context, Locale newLocale) {
     _MainState? state = context.findAncestorStateOfType<_MainState>();
-    state?.setLocale(newLocale);
+    String currentLocale = AppLocalizations.of(context).localeName;
+    if (currentLocale != newLocale.languageCode) {
+      state?.setLocale(newLocale);
+    } else {
+      log('Locale is already $newLocale');
+    }
   }
 }
 

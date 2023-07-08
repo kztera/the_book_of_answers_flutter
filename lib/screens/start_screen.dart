@@ -46,11 +46,12 @@ class _StartScreenState extends State<StartScreen> {
             ),
             TextButton(
               onPressed: () {
+                String languageCode = Localizations.localeOf(context).languageCode;
                 log("Book is tapped.");
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => AnswerScreen(answers: widget.answers),
+                    builder: (context) => AnswerScreen(answers: widget.answers, currentLanguageCode: languageCode,),
                   ),
                 );
               },
