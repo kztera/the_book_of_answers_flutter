@@ -27,14 +27,17 @@ class SharedAppBar extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
       backgroundColor: Colors.transparent,
       automaticallyImplyLeading: true,
-      title: Text(
-        title,
-        style: TextStyle(
-          fontFamily: GoogleFonts.dancingScript().fontFamily,
-          color: Colors.black,
-          fontSize: 20,
-          fontWeight: FontWeight.bold,
-          letterSpacing: 0.5,
+      title: FittedBox(
+        fit: BoxFit.fitWidth,
+        child: Text(
+          title,
+          style: TextStyle(
+            fontFamily: GoogleFonts.dancingScript().fontFamily,
+            color: Colors.black,
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            letterSpacing: 0.5,
+          ),
         ),
       ),
       centerTitle: true,

@@ -30,10 +30,10 @@
 - [x] Lấy câu trả lời từ cuốn sách gốc 
 - [x] Lưu trữ vào đâu để truy xuất dữ liệu?
 - [ ] Tạo giao diện cho ứng dụng
-  - [ ] Màn hình chính 
-  - [ ] Màn hình câu trả lời
-  - [ ] Menu Popup
-  - [ ] Sliding Side Menu
+  - [x] Màn hình chính 
+  - [x] Màn hình câu trả lời
+  - [x] Menu Popup chọn ngôn ngữ
+  - [x] Sliding Side Menu
 - [ ] Chức năng lưu lịch sử câu trả lời
 
 ## Các vấn đề cần giải quyết
