@@ -22,7 +22,7 @@ class _AboutScreenState extends State<AboutScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      extendBodyBehindAppBar: true,
+      extendBodyBehindAppBar: false,
       appBar: SharedAppBar(
         title: AppLocalizations.of(context).titleAbout,
         onLanguageChanged: handleLanguageChanged,
@@ -32,7 +32,7 @@ class _AboutScreenState extends State<AboutScreen> {
         child:
             Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
           Padding(
-            padding: const EdgeInsets.only(top: 50, bottom: 50),
+            padding: const EdgeInsets.only(top: 30, bottom: 30),
             child: Text(AppLocalizations.of(context).titleAppBar,
                 style: GoogleFonts.patrickHand(
                   fontSize: 30,
@@ -40,7 +40,7 @@ class _AboutScreenState extends State<AboutScreen> {
                 textAlign: TextAlign.center),
           ),
           Container(
-            height: 450,
+            height: 600,
             padding: const EdgeInsets.symmetric(horizontal: 30),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -100,10 +100,25 @@ class _AboutScreenState extends State<AboutScreen> {
                   ),
                   textAlign: TextAlign.center,
                 ),
+                const SizedBox(height: 10),
+                Text(
+                  AppLocalizations.of(context).about_8,
+                  style: GoogleFonts.patrickHand(
+                    fontSize: 20,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 10),
+                Text(
+                  AppLocalizations.of(context).about_9,
+                  style: GoogleFonts.patrickHand(
+                    fontSize: 20,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
               ],
             ),
           ),
-          const SizedBox(height: 50),
         ]),
       ),
     );

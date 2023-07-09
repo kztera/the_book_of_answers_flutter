@@ -22,7 +22,7 @@ class _InstructScreenState extends State<InstructScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      extendBodyBehindAppBar: true,
+      extendBodyBehindAppBar: false,
       appBar: SharedAppBar(
         title: AppLocalizations.of(context).titleHowToUse,
         onLanguageChanged: handleLanguageChanged,

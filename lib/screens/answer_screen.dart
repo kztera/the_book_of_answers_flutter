@@ -99,7 +99,7 @@ class _AnswerScreenState extends State<AnswerScreen>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      extendBodyBehindAppBar: true,
+      extendBodyBehindAppBar: false,
       appBar: SharedAppBar(
         title: AppLocalizations.of(context).titleAppBar,
         onLanguageChanged: changeLanguage,

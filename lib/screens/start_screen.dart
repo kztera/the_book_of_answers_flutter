@@ -3,6 +3,7 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import 'components/share_appbar.dart';
 import 'components/navbar.dart';
@@ -29,7 +30,7 @@ class _StartScreenState extends State<StartScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: const NavBar(),
-      extendBodyBehindAppBar: true,
+      extendBodyBehindAppBar: false,
       appBar: SharedAppBar(
         title: AppLocalizations.of(context).titleAppBar,
         onLanguageChanged: handleLanguageChanged,
@@ -40,18 +41,30 @@ class _StartScreenState extends State<StartScreen> {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text(
-              AppLocalizations.of(context).introduction,
-              textAlign: TextAlign.center,
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 50),
+              child: Text(
+                AppLocalizations.of(context).introduction,
+                style: GoogleFonts.patrickHand(
+                  fontSize: 18,
+                  color: Colors.black,
+                  letterSpacing: 0.2,
+                ),
+                textAlign: TextAlign.center,
+              ),
             ),
             TextButton(
               onPressed: () {
-                String languageCode = Localizations.localeOf(context).languageCode;
+                String languageCode =
+                    Localizations.localeOf(context).languageCode;
                 log("Book is tapped.");
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => AnswerScreen(answers: widget.answers, currentLanguageCode: languageCode,),
+                    builder: (context) => AnswerScreen(
+                      answers: widget.answers,
+                      currentLanguageCode: languageCode,
+                    ),
                   ),
                 );
               },
@@ -62,6 +75,10 @@ class _StartScreenState extends State<StartScreen> {
             ),
             Text(
               AppLocalizations.of(context).instruct,
+              style: GoogleFonts.patrickHand(
+                fontSize: 18,
+                color: Colors.black,
+              ),
               textAlign: TextAlign.center,
             ),
           ],
