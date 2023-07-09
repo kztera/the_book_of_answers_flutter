@@ -12,6 +12,11 @@
     "getOtherAnswer": "Get Other Answer",
     "shareAnswer": "Share This Answer",
 
+    "feedbackSubject": "[Feedback] The Book of Answers",
+
+    "languageEn": "English",
+    "languageVi": "Vietnamese",
+
     "menuHowToUse": "How to use",
     "menuAbout": "About",
     "menuHistory": "Answers received",

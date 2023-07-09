@@ -62,7 +62,7 @@ class SharedAppBar extends StatelessWidget implements PreferredSizeWidget {
             color: Colors.black,
           ),
           itemBuilder: (BuildContext context) {
-            return Language.languageList().map((Language language) {
+            return Language.languageList(context).map((Language language) {
               return PopupMenuItem<Language>(
                 value: language,
                 child: Row(

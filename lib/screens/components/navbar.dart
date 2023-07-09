@@ -3,14 +3,26 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import 'package:the_book_of_answers_flutter/screens/instruct_screen.dart';
+import 'package:the_book_of_answers_flutter/screens/about_screen.dart';
+import 'package:the_book_of_answers_flutter/screens/faqs_screen.dart';
 
 class NavBar extends StatelessWidget {
   const NavBar({super.key});
 
-  _launchURL(url) async {
+  Future _launchURL(url) async {
     url = Uri.parse(url);
     if (!await launchUrl(url)) {
       throw Exception('Could not launch $url');
+    }
+  }
+
+  Future launchEmail({
+    required String toEmail,
+    required String subject,
+  }) async {
+    Uri mail = Uri.parse('mailto:$toEmail?subject=$subject');
+    if (await canLaunchUrl(mail)) {
+      await launchUrl(mail);
     }
   }
 
@@ -52,7 +64,12 @@ class NavBar extends StatelessWidget {
                   leading: const Icon(Icons.question_answer),
                   title: Text(AppLocalizations.of(context).menuFAQ),
                   onTap: () {
-                    Navigator.pop(context);
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const FAQsScreen(),
+                      ),
+                    );
                   },
                 ),
                 ListTile(
@@ -60,6 +77,16 @@ class NavBar extends StatelessWidget {
                   title: Text(AppLocalizations.of(context).menuShare),
                   onTap: () {
                     Navigator.pop(context);
+                  },
+                ),
+                ListTile(
+                  leading: const Icon(Icons.feedback),
+                  title: Text(AppLocalizations.of(context).menuFeedback),
+                  onTap: () {
+                    String email = "ngkhoa247@gmail.com";
+                    String subject =
+                        AppLocalizations.of(context).feedbackSubject;
+                    launchEmail(toEmail: email, subject: subject);
                   },
                 ),
                 ListTile(
@@ -73,7 +100,12 @@ class NavBar extends StatelessWidget {
                   leading: const Icon(Icons.info),
                   title: Text(AppLocalizations.of(context).menuAbout),
                   onTap: () {
-                    Navigator.pop(context);
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const AboutScreen(),
+                      ),
+                    );
                   },
                 ),
               ],
