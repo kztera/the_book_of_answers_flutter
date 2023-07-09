@@ -1,6 +1,6 @@
 {
     "titleAppBar": "Vị thần của những Quyết Định",
-    "introduction": "Cuốn sách này sẽ đưa ra đáp án cho mọi vấn đề của bạn . . .",
+    "introduction": "Cuốn sách này sẽ đưa ra đáp án \n cho mọi vấn đề của bạn . . .",
     "instruct": "Suy nghĩ về câu hỏi trong đầu và nhấn vào cuốn sách",
     "answerScreen": "Câu trả lời cho thắc mắc của bạn là: ",
     "getOtherAnswer": "Muốn câu trả lời khác?",
@@ -11,5 +11,38 @@
     "menuHistory": "Câu trả lời trước đó",
     "menuSettings": "Cài đặt",
     "menuShare": "Chia sẻ ứng dụng này",
-    "menuFAQ": "Câu hỏi thường gặp"
+    "menuFeedback": "Góp ý",
+    "menuFAQ": "Câu hỏi thường gặp",
+
+    "titleHowToUse": "Hướng dẫn sử dụng",
+    "titleAbout": "Về ứng dụng này",
+    "titleHistory": "Câu trả lời đã nhận",
+    "titleSettings": "Cài đặt",
+    "titleFAQ": "Câu hỏi thường gặp",
+
+    "instruct_0": "Làm theo các bước dưới đây \n để có được kết quả chính xác nhất:",
+    "instruct_1": "(1) Mở ứng dụng \n (Đương nhiên rồi ^^)",
+    "instruct_2": "(2) Nhắm mắt, hoàn toàn tập trung \n vào điều bạn muốn hỏi",
+    "instruct_3": "(3) Đặt một câu hỏi \n (nói to hoặc hình dung câu hỏi trong đầu)",
+    "instruct_4": "(4) Khi trực giác mách bảo thời điểm thích hợp, \n hãy nhấn vào cuốn sách trên màn hình \n và chờ câu trả lời xuất hiện",
+    "instruct_5": "(5) Lặp lại quy trình cho các câu hỏi khác",
+
+    "about_1": "Một trò chơi.",
+    "about_2": "Một lời tiên tri.",
+    "about_3": "Hay một thông điệp đến từ vũ trụ",
+    "about_4": "Dù bạn xem cuốn sách này là gì, \n thì bạn cũng nên đặt niềm tin trước khi đặt câu hỏi. \n Và bạn cũng chỉ nên tìm kiếm câu trả lời, \n khi thực sự tin hoặc muốn tin vào nó.",
+    "about_5": "Nếu bạn đang phân vân trước những lựa chọn, \n nếu bạn đang thiếu quyết đoán, nếu bạn đang không biết tiếp theo nên làm gì: hãy đặt một câu hỏi.",
+    "about_6": "Và hãy để những vị thần quyết định thay bạn.",
+    "about_7": "Ứng dụng được phát triển dựa trên cuốn sách \n \"The Book of Answers\" của Carol Bolt, \n một nghệ sĩ chuyên nghiệp sống ở Seattle.",
+    "about_8": "Xin gửi lời cảm ơn tới Carol Bolt \n đã tạo ra cuốn sách đầy cảm hứng và thú vị như vậy dành cho chúng ta.",
+    "about_9": "Nếu bạn có bất kì câu hỏi hoặc góp ý nào, \n hãy liên hệ với chúng tôi qua menu Góp ý \n trong ứng dụng này nhé. Cảm ơn bạn!",
+
+    "faq_q1": "The Book of Answers là gì?",
+    "faq_a1": "The Book of Answers là cuốn sách được viết bởi Carol Bolt, một nghệ sĩ chuyên nghiệp sống ở Seattle. Cuốn sách là lời giải đáp cho mọi câu hỏi trong cuộc sống hàng ngày. Việc của bạn là đặt bất kì một câu hỏi và chúng tôi sẽ giúp bạn có được câu trả lời.", 
+    "faq_q2": "Vậy ứng dụng này là gì?",
+    "faq_a2": "Ứng dụng này là một phiên bản di động của cuốn sách The Book of Answers. Mong muốn đem tới trải nghiệm tốt nhất cho người dùng, mọi câu trả lời bạn thấy sẽ giống hệt nội dung như trong cuốn sách",
+    "faq_q3": "Câu trả lời tôi nhận được có chính xác không?",
+    "faq_a3": "Điều đó hoàn toàn phụ thuộc vào bạn! Hãy tin tưởng rằng chuyện gì rồi cũng sẽ có cách giải quyết, câu trả lời đúng sẽ luôn nằm trong đầu của bạn ^^. Mong rằng ít nhất phần nào đó các câu trả lời mà ứng dụng này đưa ra sẽ giúp bạn đỡ băn khoăn và tìm được hướng đi cho mình.",
+    "faq_q4": "Tuyên bố miễn trừ trách nhiệm",
+    "faq_a4": "Ứng dụng này không có mục đích thay thế cho bất kì tư vấn nào. Chúng tôi không chịu trách nhiệm về bất kì hậu quả nào do việc sử dụng ứng dụng này gây ra."
 }

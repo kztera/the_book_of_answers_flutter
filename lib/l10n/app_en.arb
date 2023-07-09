@@ -3,7 +3,7 @@
     "@titleAppBar": {
         "description": "Title of the application bar"
     },
-    "introduction": "This book will give you the answers when you have something unsolvable...",
+    "introduction": "This book will give you the answers when you have something unsolvable . . .",
     "@introduction": {
         "description": "Introduction text of the application"
     },
@@ -17,13 +17,39 @@
     "menuHistory": "Answers received",
     "menuSettings": "Settings",
     "menuShare": "Share this app",
+    "menuFeedback": "Feedback",
     "menuFAQ": "FAQs",
 
-    "titleHowToUse" : "How to use this app",
-    "titleAbout" : "About this app",
-    "titleHistory" : "Answers received",
-    "titleSettings" : "Settings",
-    "titleFAQ" : "FAQs",
+    "titleHowToUse": "How to use this app",
+    "titleAbout": "About this app",
+    "titleHistory": "Answers received",
+    "titleSettings": "Settings",
+    "titleFAQ": "FAQs",
 
-    "pageHowToUse" : " "
+    "instruct_0": "Follow the steps for best results",
+    "instruct_1": "(1) Open this App \n (Of course, you have already done this step ^^)",
+    "instruct_2": "(2) Close your eyes, \n concentrate on the question you want to ask",
+    "instruct_3": "(3) Ask a question \n (say it out loud \n or imagine the question in your head)",
+    "instruct_4": "(4) When your intuition tells you the right time, \n tap the book on the screen \n and wait for the answer to appear",
+    "instruct_5": "(5) Repeat the process for other questions",
+
+    "about_1": "A game.",
+    "about_2": "A prophecy.",
+    "about_3": "Or a message from the universe.",
+    "about_4": "Whatever you call this book, \n you should have faith before asking a question. \n And you should only seek an answer, \n when you truly believe or want to believe in it.",
+    "about_5": "If you are confused by the choices, if you are indecisive, if you don't know what to do next: \n let ask a question.",
+    "about_6": "And let the book decide for you.",
+    "about_7": "This app is developed based on the book \n \"The Book of Answers\" by Carol Bolt, \n a professional artist living in Seattle.",
+    "about_8": "We would like to thank Carol Bolt for creating \n such an inspiring and interesting book for us.",
+    "about_9": "If you have any questions or suggestions, \n please contact us via the Feedback menu in this app. \n Thank you!",
+
+    "faq_q1": "What is The Book Of Answers?",
+    "faq_a1": "The Book of Answers is a book written by Carol Bolt, a professional artist living in Seattle. The book is the answer to every question in everyday life. Your job is to ask any question and we will help you get the answer.",
+    "faq_q2": "What is this app?",
+    "faq_a2": "This app is a mobile version of The Book of Answers. In order to bring the best experience to users, all the answers you see will be exactly the same as the content in the book.",
+    "faq_q3": "Is the answer I get accurate?",
+    "faq_a3": "That totally depends on you! Believe that there is always a way out, the right answer is always in your head ^^. Hope that at least some of the answers that this app gives will help you find your way.",
+    "faq_q4": "Disclaimer",
+    "faq_a4": "This app is not intended to replace any advice. We are not responsible for any consequences caused by the use of this app."
+
 }
