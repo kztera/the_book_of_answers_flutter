@@ -112,8 +112,8 @@ class _AnswerScreenState extends State<AnswerScreen>
           children: <Widget>[
             Text(AppLocalizations.of(context).answerScreen,
                 textAlign: TextAlign.center,
-                style: GoogleFonts.roboto(
-                  textStyle: const TextStyle(fontSize: 16, color: Colors.black),
+                style: GoogleFonts.patrickHand(
+                  textStyle: const TextStyle(fontSize: 20, color: Colors.black),
                 )),
             Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -157,6 +157,7 @@ class _AnswerScreenState extends State<AnswerScreen>
                               margin: const EdgeInsets.only(top: 15),
                               child: Text(
                                 getAnswerText().capitalize(),
+                                // getAnswerText(),
                                 textAlign: TextAlign.center,
                                 style: GoogleFonts.newsreader(
                                   textStyle: const TextStyle(
@@ -195,9 +196,9 @@ class _AnswerScreenState extends State<AnswerScreen>
                   },
                   child: Text(
                     AppLocalizations.of(context).getOtherAnswer,
-                    style: GoogleFonts.roboto(
+                    style: GoogleFonts.patrickHand(
                       textStyle: const TextStyle(
-                        fontSize: 14,
+                        fontSize: 17,
                         // fontWeight: FontWeight.bold,
                         color: Colors.black,
                       ),
@@ -211,9 +212,9 @@ class _AnswerScreenState extends State<AnswerScreen>
                     },
                     child: Text(
                       AppLocalizations.of(context).shareAnswer,
-                      style: GoogleFonts.roboto(
+                      style: GoogleFonts.patrickHand(
                         textStyle: const TextStyle(
-                          fontSize: 14,
+                          fontSize: 17,
                           fontWeight: FontWeight.bold,
                           color: Colors.black,
                         ),

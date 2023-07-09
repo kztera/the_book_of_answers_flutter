@@ -72,7 +72,12 @@ class SharedAppBar extends StatelessWidget implements PreferredSizeWidget {
                       language.flag,
                       style: const TextStyle(fontSize: 30),
                     ),
-                    Text(language.name),
+                    Text(language.name,
+                        style: GoogleFonts.patrickHand(
+                          textStyle: const TextStyle(
+                            fontSize: 20,
+                          ),
+                        )),
                   ],
                 ),
               );
